@@ -1,0 +1,164 @@
+
+--- Page 1 ---
+
+10/30/25, 7:40 PM Front End Development - Overview
+
+Front End Development
+
+Last updated by | Perez Martinez, Sheila | Oct 22, 2025 at 9:46 PM GMT+5:30
+
+Child Pages
++ Projects
++ Q-web-app
+
+Global Standards
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3206/Front-End-Development
+
+113
+
+
+--- Page 2 ---
+
+10/30/25, 7:40 PM
+
+Area
+
+Accessibility
+
+Input Validation
+
+Error Handling
+
+Performance
+Optimisation
+
+Security &
+Compliance
+
+Documentation
+
+Logging,
+Monitoring &
+Observability
+
+Testing
+
+Integration &
+Compatibility
+
+Knowledge Sharing
+
+3rd Party Libraries
+
+Must Do
+
+Front End Development - Overview
+
+Must
+
+Follow https://www.w3.org/WAI/ARIA/apg/,
+use semantic HTML, ensure keyboard
+navigation
+
+Validate inputs both client-side and server-side
+Implement graceful error handling with user-
+friendly messages
+
+Minify assets, lazy-load images, reduce re-
+renders, use CDNs
+
+Follow OWASP guidelines, sanitise inputs, use
+HTTPS
+
+Maintain clear, version-controlled
+documentation
+
+Use structured logging, set up alerts and
+dashboards
+
+Use unit, integration, and E2E testing with
+coverage reports
+
+Ensure compatibility with Edge and other
+major browsers
+
+Share learnings via wikis, workshops, and
+mentoring
+
+Vet libraries for security, size, and maintenance
+
+XX Must Not
+
+Use non-semantic tags for
+structure (e.g. <div> for
+everything), ignore screen
+reader support
+
+Rely solely on client-side
+validation or skip validation
+entirely
+
+Show raw error messages or
+fail silently
+
+Load large assets upfront,
+ignore performance audits
+
+Store sensitive data in plain
+text, ignore XSS/CSRF risks
+
+Leave code undocumented or
+rely on tribal knowledge
+
+Log sensitive data, skip
+runtime monitoring
+
+Skip tests or rely only on
+manual QA
+
+Assume all users use Chrome,
+ignore cross-browser testing
+
+Hoard knowledge or skip
+onboarding documentation
+
+Use outdated or bloated
+libraries without review
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3206/Front-End-Development
+
+213
+
+
+--- Page 3 ---
+
+10/30/25, 7:40 PM Front End Development - Overview
+
+Area Practice Why It Matters
+Responsive Implement mobile-first design with media Ensures usability across devices
+Design queries and fluid layouts
+a . Enhances speed and user
+Performance Minify assets, lazy-load images, use CDNs .
+experience
+Accessil Use alt text, ARIA roles, and keyboard navigation Makes your site usable for all
+Testing Use E2E tools like Puppeteer Validates real-world user flows
+. Use Git with clear commit messages and Enables collaboration and
+Version Control .
+branching strategy rollback safety
+>< Must Not Do
+Pitfall Why to Avoid
+Use <div> s for everything Reduces semantic clarity and accessibility
+Hard-code styles inline Makes maintenance harder and breaks separation of concerns
+
+Ignore performance bottlenecks Leads to slow load times and poor SEO
+
+Skip cross-browser testing Causes inconsistent behaviour across platforms
+Overuse DOM manipulation Can cause rendering bottlenecks
+Neglect accessibility Excludes users with disabilities and violates standards
+
+System Specific Standards
+
+e React JS library - Overview
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3206/Front-End-Development

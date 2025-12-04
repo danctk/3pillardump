@@ -1,0 +1,58 @@
+{
+    "OwnerId": "4742",
+    "Account": {
+        "Insured": [
+            {
+                "Location": [
+                    {
+                        "Building": [
+                            {
+                                "Coverage": [
+                                    {
+                                        "DwellingCoverage": "443000",
+                                        "PolicyformOption": "RCV",
+                                        "RoofingSystemsLimit": "93000",
+                                        "TermInMonths": "12",
+                                        "WindCoverage": "Yes"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ID": "9317b049-8f64-4cd8-ade5-78d908686a8f"
+                    }
+                ],
+                "ID": "d15ca8c2-8b03-4cfd-bbb8-aba8e9a6853e"
+            }
+        ],
+        "SelectedLineOfBusiness": [
+            {
+                "InsuranceType": "Homeowners",
+                "LOBName": "PL",
+                "ID": "c0eb70dd-da11-471e-947e-978f26e4433e",
+                "PARENTID": "8da9d36a-96a1-4193-9a14-44926c7b98d0"
+            }
+        ]
+    },
+    "BillingType": "DirectBill",
+    "CarrierID": "0",
+    "EventName": "GetAvailableMarkets",
+    "PolicyEffectiveDate": "10/23/2025",
+    "PolicyExpirationDate": "10/23/2026",
+    "QuoteType": "New Business",
+    "ServiceRequestDetail": {
+        "OwnerId": "4742",
+        "EndClientUserUniqueSessionId": "1.0",
+        "ServiceRequestVersion": "1.0",
+        "LanguageCode": "en",
+        "UserName": "chenoaqaagent@test.com",
+        "RegionCode": "US",
+        "ServiceResponseVersion": "1.0",
+        "ResponseType": "json",
+        "Token": "jhsBPvvVweZUuPuqFONyPqDxPAYWtMp5HeM6zIE/2K25lDjJrvyEulrsByN7ISQ1L5XcsIm3Yt4N2cpK5O+CmXDEyVq0JEYBx0Mdv8NSVfVtUDmOKPhuyPXSqYYo+WhfpihGKKKJu1kFP+cHzWUYnsj9HCaQrHt2MUljPNdTon6L/g6yy+jbOJjoJYQCsYzCNH7byf2vGuvKhu20G4skT+e+rFBINnLAhstYfc3+WMyfPt0NcfL+4lLiBLXVM87kAcWbEjmWEi1zEquaEpZr8vdC6qL6DtXkb8cuYuQrmi0pCkQhZS7vIc+Vc19wYA78FD8xMoaq2C42guWzub7+OiXQMI0t4uVZ5s2lRKB/8SnVG2ZvpMIOsmx2SmAPZIbAdGFCsjBWBKNIUE7Uc45FdGOk0FPHsnBNuejcNwZt0VNaTlf6O0rRrwYAkuc98HF9CSM+dxeJEo4YsBgD/IjlGElFiI9OsWRyjo8bG858PvmpY55fMh2rbbY1wy2wHo7j3Ac4UrrbB6ZrG2n3ep1sDHjoqrfdsdep7iD7qOcpTfFa5pVDtL88IX1xRuOBXulcS/mzMo4Ba6ZZWHKK4TvHiTw04Dbh+BpDEF/5+dmaRrz6t3gifa4FrQfjCNtQ2EktKtAI5oU8sT39Q4wUx0QU8EvjCTU5HH/2d+Kuhu9czyBno7zbW8+pDmH3thuGkfnpGPwqxYyohFEZepqH7o8dpJIgEMeQJRAcSlXxJFbRqLJmgSsJUcNJFnDG7tVFWLhD9TgJHVeJkSHGMx5nzI5SDqP34YScbtQA2yAiPzp4NWFHYfL0cTA1OeiB9GlWhWrnQGFa6/FeuefIQSdL0veeB4HIZVor1Hu7zU693aOVaxAp3NU7gIERP8NV2++QNOC3JkJO4HBIL641Ubt69qEzHU/t0FJArOZQI6o353p8QY4Jcu7hjqS3kn5sRNXlCztTZ59ERSMtKdKAeB1HfreObwi/+CQQyDEgm+DW8TmyD+nszgqaStgkKUKAHLBOUrV5<TRUNCATED>",
+        "Lob": "PL",
+        "BrowserIp": "192.158.1.38",
+        "UserRole": "Agent"
+    },
+    "SubmissionID": "ddacfc7b-7ea5-459a-a37a-17d184df4579",
+    "SubLineID": "0"
+}

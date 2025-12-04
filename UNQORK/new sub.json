@@ -1,0 +1,678 @@
+{
+    "ID": "e158195a-ba65-4f68-ae58-99ce97013149",
+    "Account": {
+        "ID": "82ee7904-0160-4ba9-8641-cac4f3212244",
+        "Dob": "2000-10-15",
+        "AgentId": "0bd5a7c0-378b-4777-8099-7b2bc6f5fe37",
+        "Insured": [
+            {
+                "ID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                "Dob": "2000-10-15",
+                "Type": "Individual",
+                "AgentId": "0bd5a7c0-378b-4777-8099-7b2bc6f5fe37",
+                "OwnerId": "4742",
+                "AgencyId": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                "Criminal": "false",
+                "Location": [
+                    {
+                        "ID": "de9386e5-9436-4c70-8132-d50922351415",
+                        "City": "Dulles",
+                        "Country": "USA",
+                        "Building": [
+                            {
+                                "ID": "f8b518a5-4d69-4672-b3ca-c0cf1d563c77",
+                                "ResType": "Single Family",
+                                "Coverage": [
+                                    {
+                                        "ID": "4b4c286c-21ff-4a76-b1b3-f99df76700f8",
+                                        "PARENTID": "f8b518a5-4d69-4672-b3ca-c0cf1d563c77",
+                                        "WindCoverage": "Yes"
+                                    }
+                                ],
+                                "HVACCool": "Central Air Conditioning",
+                                "PARENTID": "de9386e5-9436-4c70-8132-d50922351415",
+                                "SquareFt": 1585,
+                                "DateBuilt": 2008,
+                                "FireAlarm": "Smoke Detectors",
+                                "Occupancy": "Primary",
+                                "RoofShape": "Gable",
+                                "Foundation": "Crawlspace",
+                                "GarageType": "2 Car (397 - 576 sq ft)",
+                                "RoofUpdated": 2020,
+                                "BurglarAlarm": "None",
+                                "PlumbingType": "Copper",
+                                "RoofMaterial": "Composition - Architectural Shingle",
+                                "ExteriorSiding": "Unknown",
+                                "HeatingUpdated": 2020,
+                                "LaundryLocation": "Basement",
+                                "NumberOfStories": "1 Story",
+                                "ProtectionClass": "1",
+                                "ConstructionType": "Wood Framing",
+                                "HaveFloodPolicyYN": "Yes",
+                                "InteriorSprinkler": "None",
+                                "RoofDeckAttachments": "Unknown",
+                                "WaterHeaterLocation": "Basement",
+                                "RoofToWallConnection": "Unknown"
+                            }
+                        ],
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "Zipcode1": "20166",
+                        "CountryCode": "US",
+                        "StateRegion": "VA",
+                        "ThirdPartyCity": "Dulles",
+                        "StateRegionCode": "VA",
+                        "NumberOfBuildings": 1,
+                        "ThirdPartyZipcode1": "20166",
+                        "StreetNumberAddress1": "45120 Waxpool Road",
+                        "ThirdPartyFullAddress": "45120 Waxpool Rd, Dulles, VA 20166, USA"
+                    }
+                ],
+                "PARENTID": "82ee7904-0160-4ba9-8641-cac4f3212244",
+                "CreatedBy": "chenoaqaagent@test.com",
+                "InsuredID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                "LastName2": "sfds",
+                "OFACScore": "0",
+                "UpdatedBy": "chenoaqaagent@test.com",
+                "FirstName1": "sadasf",
+                "CreatedDate": "2025-10-20 15:44:24",
+                "InsuredName": "sadasf sfds",
+                "OFACSuccess": "Y",
+                "UpdatedDate": "2025-10-20 15:48:27",
+                "PrincipalDOB": "2000-10-15",
+                "AccountNumber": "826949",
+                "CreatedToDate": "10/20/2025",
+                "InsuredNumber": "H100862899",
+                "UpdatedToDate": "10/20/2025",
+                "InsuranceScore": "No Score",
+                "InsuredAddress": [
+                    {
+                        "ID": "51b1839e-3448-4af0-9233-e6724560b709",
+                        "City": "Dulles",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "AddressType": "Primary",
+                        "StateRegionCode": "VA",
+                        "InsuredFullAddress": "45120 Waxpool Rd, Dulles, VA 20166, USA",
+                        "StreetNumberAddress1": "45120 Waxpool Road"
+                    },
+                    {
+                        "ID": "1ecaacd8-57d7-4436-8552-8d73309d5954",
+                        "City": "Dulles",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "AddressType": "Primary",
+                        "StateRegionCode": "VA",
+                        "InsuredFullAddress": "45120 Waxpool Rd, Dulles, VA 20166, USA",
+                        "StreetNumberAddress1": "45120 Waxpool Road"
+                    },
+                    {
+                        "ID": "59fc172c-b210-47a1-9d11-cb8b010848c6",
+                        "City": "Dulles",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "AddressType": "Primary",
+                        "StateRegionCode": "VA",
+                        "InsuredFullAddress": "45120 Waxpool Rd, Dulles, VA 20166, USA",
+                        "StreetNumberAddress1": "45120 Waxpool Road"
+                    },
+                    {
+                        "ID": "aca27847-90e3-4487-8f0f-d0ab427d7646",
+                        "City": "Dulles",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "AddressType": "Primary",
+                        "StateRegionCode": "VA",
+                        "InsuredFullAddress": "45120 Waxpool Rd, Dulles, VA 20166, USA",
+                        "StreetNumberAddress1": "45120 Waxpool Road"
+                    },
+                    {
+                        "ID": "d052f753-add9-4454-95e7-bef02c13d939",
+                        "City": "Dulles",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "AddressType": "Primary",
+                        "StateRegionCode": "VA",
+                        "InsuredFullAddress": "45120 Waxpool Rd, Dulles, VA 20166, USA",
+                        "StreetNumberAddress1": "45120 Waxpool Road"
+                    }
+                ],
+                "LastModifiedBy": "chenoaqaagent@test.com",
+                "RunDateandTime": "10-20-2025 15:48:32",
+                "CreatedFromDate": "10/20/2025",
+                "UpdatedFromDate": "10/20/2025",
+                "LastModifiedDate": "2025-10-20 15:48:27",
+                "PrincipalLastName": "sfds",
+                "InsuredFullAddress": "45120 Waxpool Rd, Dulles, VA 20166, USA",
+                "LastModifiedToDate": "10/20/2025",
+                "PrincipalFirstName": "sadasf",
+                "InsuranceScoreStatus": "Error",
+                "InsuredCommunication": [
+                    {
+                        "ID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862"
+                    }
+                ],
+                "LastModifiedFromDate": "10/20/2025",
+                "SelectedLineOfBusiness": [
+                    {
+                        "ID": "c3479682-8f37-4acc-ab99-5914f9e6843b",
+                        "LOBName": "PL",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "8f8b31de-bb95-4926-852b-13afb661ab86",
+                        "LOBName": "PL",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "581da0d9-3779-4524-a1b1-2ed3bd286641",
+                        "LOBName": "PL",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "cca89380-1e4d-4c74-96d7-c491641f2736",
+                        "LOBName": "PL",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "f3d7f9bd-c08d-4e98-b5eb-9495d596bc97",
+                        "LOBName": "PL",
+                        "PARENTID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+                        "InsuranceType": "Homeowners"
+                    }
+                ]
+            }
+        ],
+        "OwnerId": "4742",
+        "AgencyId": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+        "PARENTID": "e158195a-ba65-4f68-ae58-99ce97013149",
+        "AccountID": "82ee7904-0160-4ba9-8641-cac4f3212244",
+        "CreatedBy": "chenoaqaagent@test.com",
+        "LastName2": "sfds",
+        "UpdatedBy": "chenoaqaagent@test.com",
+        "FirstName1": "sadasf",
+        "AccountName": "sadasf sfds",
+        "CreatedDate": "2025-10-20 15:44:24",
+        "UpdatedDate": "2025-10-20 15:48:27",
+        "AccountNumber": "826949",
+        "CreatedToDate": "10/20/2025",
+        "UpdatedToDate": "10/20/2025",
+        "AccountAddress": [
+            {
+                "ID": "2eab075a-966c-4a64-b5a5-7cf05fc905e7",
+                "City": "Dulles",
+                "PARENTID": "82ee7904-0160-4ba9-8641-cac4f3212244",
+                "AddressType": "Primary",
+                "StateRegionCode": "VA",
+                "AccountFullAddress": "45120 Waxpool Rd, Dulles, VA 20166, USA",
+                "StreetNumberAddress1": "45120 Waxpool Road"
+            }
+        ],
+        "LastModifiedBy": "chenoaqaagent@test.com",
+        "CreatedFromDate": "10/20/2025",
+        "UpdatedFromDate": "10/20/2025",
+        "LastModifiedDate": "2025-10-20 15:48:27",
+        "LastModifiedToDate": "10/20/2025",
+        "LastModifiedFromDate": "10/20/2025",
+        "SelectedLineOfBusiness": [
+            {
+                "ID": "8436938f-5fe3-482e-b257-ec4197149276",
+                "LOBName": "PL",
+                "PARENTID": "82ee7904-0160-4ba9-8641-cac4f3212244",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "928c8516-edfa-472c-a793-b5c86e15b2df",
+                "LOBName": "PL",
+                "PARENTID": "82ee7904-0160-4ba9-8641-cac4f3212244",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "12e75470-2a2b-4880-81bc-34d6f11e3c64",
+                "LOBName": "PL",
+                "PARENTID": "82ee7904-0160-4ba9-8641-cac4f3212244",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "4e22fc01-6658-4c9d-95f2-1a46276ac7ec",
+                "LOBName": "PL",
+                "PARENTID": "82ee7904-0160-4ba9-8641-cac4f3212244",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "52e9fcbf-dc04-4b16-a901-81b7e88dacef",
+                "LOBName": "PL",
+                "PARENTID": "82ee7904-0160-4ba9-8641-cac4f3212244",
+                "InsuranceType": "Homeowners"
+            }
+        ]
+    },
+    "AgentID": "0bd5a7c0-378b-4777-8099-7b2bc6f5fe37",
+    "OwnerId": "4742",
+    "AgencyID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+    "AccountID": "82ee7904-0160-4ba9-8641-cac4f3212244",
+    "CreatedBy": "chenoaqaagent@test.com",
+    "InsuredID": "f3087eb7-cc4b-42d3-bf28-742226a60862",
+    "UpdatedBy": "chenoaqaagent@test.com",
+    "CreatedDate": "2025-10-20 15:44:24",
+    "SublineName": "HO3",
+    "UpdatedDate": "2025-10-20 15:48:33",
+    "SourceSystem": "Unqork",
+    "SubmissionID": "e158195a-ba65-4f68-ae58-99ce97013149",
+    "CreatedToDate": "10/20/2025",
+    "GeneralAgency": {
+        "ID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+        "Name": "Orchid Underwriters Surplus Lines Licensing",
+        "Agency": [
+            {
+                "ID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                "Name": "Orchid Accounting",
+                "Agent": [
+                    {
+                        "ID": "0bd5a7c0-378b-4777-8099-7b2bc6f5fe37",
+                        "TaxID": "",
+                        "Status": "Active",
+                        "OwnerId": "4742",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "Standing": "",
+                        "AgentName": "Robert Stiff (Renewal Testing)",
+                        "CreatedBy": "Orchid_Renewal",
+                        "LastName2": "Stiff (Renewal Testing)",
+                        "UpdatedBy": "Orchid_Renewal",
+                        "AgencyName": "Orchid Accounting",
+                        "FirstName1": "Robert",
+                        "AgentNumber": "",
+                        "ContactType": "Agent",
+                        "CreatedDate": "2024-03-12 12:31:58",
+                        "MiddleName3": "",
+                        "UpdatedDate": "2025-10-09 23:30:08",
+                        "AgencyNumber": "AGY6787",
+                        "AgentAddress": [
+                            {
+                                "ID": "70cc874a-fe1d-46b9-a5d8-c79d72a5119d",
+                                "City": "Tampa",
+                                "County": "Indian River",
+                                "PARENTID": "0bd5a7c0-378b-4777-8099-7b2bc6f5fe37",
+                                "Zipcode1": "33607",
+                                "Zipcode2": "",
+                                "CountryCode": "US",
+                                "StateRegion": "Florida",
+                                "StateRegionCode": "FL",
+                                "StreetNameAddress2": "",
+                                "StreetNumberAddress1": "4030 W Boy Scout Boulevard Ste 200"
+                            }
+                        ],
+                        "AgentLicense": [
+                            {
+                                "ID": "bee55c11-ded6-4c13-bcb8-997f3ce53440",
+                                "Number": "1456872",
+                                "PARENTID": "0bd5a7c0-378b-4777-8099-7b2bc6f5fe37",
+                                "ExternalID": "a2d7c000002RuF6AAK",
+                                "EffectiveDate": "",
+                                "LicenseStatus": "Current",
+                                "ExpirationDate": "2030-05-31",
+                                "StateRegionCode": "VA"
+                            }
+                        ],
+                        "UpdatedToDate": "10/09/2025",
+                        "IsAgentAdminYN": "false",
+                        "ExternalAgentID": "0037c00001Di76aAAB",
+                        "UpdatedFromDate": "10/09/2025",
+                        "ExternalAgencyID": "0015f00000L0GtEAAV",
+                        "IsAgentCSRUserYN": "false",
+                        "LastModifiedDate": "2025-10-09 23:30:08",
+                        "AgentCommunication": [
+                            {
+                                "ID": "7a1dbfb7-e494-46c7-8bdd-f272cc82975c",
+                                "PARENTID": "0bd5a7c0-378b-4777-8099-7b2bc6f5fe37",
+                                "PhoneNumber": "",
+                                "EmailAddress": "renewaluat@orchidinsurance.com"
+                            }
+                        ],
+                        "LastModifiedToDate": "10/09/2025",
+                        "LicenseRelationship": "Producer",
+                        "LastModifiedFromDate": "10/09/2025",
+                        "NationalProducerNumber": "",
+                        "PrincipalContactIndicatorYN": "false"
+                    }
+                ],
+                "TaxID": "93-2866672",
+                "Status": "Active",
+                "OwnerId": "4742",
+                "Standing": "Good",
+                "AgencyDBA": "",
+                "CreatedBy": "Orchid_Renewal",
+                "UpdatedBy": "Orchid_Renewal",
+                "AgencyType": "PL",
+                "CreatedDate": "2024-03-12 06:29:54",
+                "UpdatedDate": "2025-10-19 23:30:24",
+                "AgencyNumber": "AGY6787",
+                "WireTransfer": "true",
+                "AgencyAddress": [
+                    {
+                        "ID": "6b21fa11-caf6-4da1-86d5-b8752c1aefbb",
+                        "City": "Vero Beach",
+                        "County": "Indian River",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "AddressType": "Primary",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place Suite A110"
+                    },
+                    {
+                        "ID": "bf9acffd-5469-4054-9b98-7b5e01e3c670",
+                        "City": "Vero Beach",
+                        "County": "Indian River",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "AddressType": "Billing",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place, Suite A110"
+                    }
+                ],
+                "AgencyContact": [
+                    {
+                        "ID": "899e6edb-0d84-4d7d-9aad-3afdc3d5ea25",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "ContactID": "472dc180-c3aa-4e8e-a968-484af6ea339e",
+                        "LastName2": "Walker",
+                        "FirstName1": "Amy",
+                        "ContactType": "Principal Contact",
+                        "AgencyContactAddress": [
+                            {
+                                "ID": "08187833-7f6b-4bc0-a79d-3a772b2acee5",
+                                "City": "Vero Beach",
+                                "County": "Indian River",
+                                "PARENTID": "899e6edb-0d84-4d7d-9aad-3afdc3d5ea25",
+                                "Zipcode1": "32960",
+                                "Zipcode2": "",
+                                "CountryCode": "US",
+                                "StateRegion": "Florida",
+                                "StateRegionCode": "FL",
+                                "StreetNameAddress2": "",
+                                "StreetNumberAddress1": "1201 19th Place, Suite A110"
+                            }
+                        ],
+                        "AgencyContactCommunication": [
+                            {
+                                "ID": "2ee168e0-ace5-4a71-8929-25dd7b930e1c",
+                                "PARENTID": "899e6edb-0d84-4d7d-9aad-3afdc3d5ea25",
+                                "EmailAddress": "awalker2@orchidinsurance.com"
+                            }
+                        ]
+                    }
+                ],
+                "AgencyLicense": [],
+                "UpdatedToDate": "10/19/2025",
+                "ParentAgencyID": "9911b34a-b071-43b2-b171-4ff4fd921b87",
+                "X1099Indicator": "true",
+                "CommissionPayee": "Split",
+                "UpdatedFromDate": "10/19/2025",
+                "ExternalAgencyID": "0015f00000L0GtEAAV",
+                "IsLegacyAgencyYN": "No",
+                "LastModifiedDate": "2025-10-19 23:30:24",
+                "MarketingManager": "0055f0000099uLHAAY",
+                "AgencyLicenseName": "Orchid Insurance",
+                "ContractStartDate": "",
+                "CIC_Eligibility__c": "Yes",
+                "ExternalAgencyCode": "",
+                "LastModifiedToDate": "10/19/2025",
+                "QBE_Eligibility__c": "Yes",
+                "AgencyCommunication": [
+                    {
+                        "ID": "d9ae81b9-7489-4f65-b023-effebe489504",
+                        "Fax": "",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "PhoneNumber": "772-257-7988",
+                        "EmailAddress": "renewaluat@orchidinsurance.com"
+                    }
+                ],
+                "LicenseRelationship": "Agency",
+                "NationalPartnership": "",
+                "LastModifiedFromDate": "10/19/2025",
+                "Chaucer_Eligibility__c": "Yes",
+                "Neptune_Eligibility__c": "No",
+                "Lloyds_BA_Eligibility__c": "Yes",
+                "Accredited_Eligibility__c": "Yes",
+                "Chubb_Euro_Eligibility__c": "Yes",
+                "Transverse_Eligibility__c": "Yes",
+                "NationalPartnershipSubcode": "",
+                "Beazley_BESI_Eligibility__c": "Yes",
+                "RenaissanceRe_Eligibility__c": "Yes",
+                "ParentAgencyControlCommission": "false",
+                "Lloyds_Canopius_Eligibility__c": "Yes",
+                "Lloyds_Northeast_Eligibility__c": "Yes",
+                "Lloyds_Preferred_Eligibility__c": "Yes",
+                "RenewalParentAgencyCommissionSharePercentage": "23",
+                "NewBusinessParentAgencyCommissionSharePercentage": "22"
+            }
+        ],
+        "Status": "Active",
+        "OwnerId": "4742",
+        "PARENTID": "e158195a-ba65-4f68-ae58-99ce97013149",
+        "CreatedBy": "Orchid_Nandagopal",
+        "UpdatedBy": "Orchid_Nandagopal",
+        "CreatedDate": "2023-09-27 21:02:31",
+        "UpdatedDate": "2023-10-09 21:15:55",
+        "GeneralAgent": [
+            {
+                "ID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                "TaxID": "",
+                "Status": "Active",
+                "OwnerId": "4742",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "Standing": "",
+                "AgentName": "James R. Watje",
+                "CreatedBy": "LION-98_Import",
+                "LastName2": "Watje",
+                "UpdatedBy": "LION-98_Import",
+                "FirstName1": "James R.",
+                "ContactType": "Principal Contact",
+                "CreatedDate": "2025-03-21 11:18:31",
+                "MiddleName3": "",
+                "UpdatedDate": "2025-03-22 09:00:37",
+                "UpdatedToDate": "03/22/2025",
+                "IsAgentAdminYN": "false",
+                "ExternalAgentID": "003Nq00000X9Z1xIAF",
+                "UpdatedFromDate": "03/22/2025",
+                "ExternalAgencyID": "0017c0000115rmaAAA",
+                "IsAgentCSRUserYN": "false",
+                "LastModifiedDate": "2025-03-22 09:00:37",
+                "GeneralAgencyName": "Orchid Underwriters Surplus Lines Licensing",
+                "ExternalAgencyCode": "",
+                "GeneralAgentNumber": "",
+                "LastModifiedToDate": "03/22/2025",
+                "GeneralAgencyNumber": "OUASLL",
+                "GeneralAgentAddress": [
+                    {
+                        "ID": "e2f763cc-ef3d-49e8-823a-fcbad992053a",
+                        "City": "Vero Beach",
+                        "County": "FL",
+                        "PARENTID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place, Ste A110"
+                    }
+                ],
+                "GeneralAgentLicense": [
+                    {
+                        "ID": "07fe871d-16e2-43eb-8911-7e47df935702",
+                        "Number": "1204388",
+                        "PARENTID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                        "ExternalID": "a2dNq000000W2rVIAS",
+                        "EffectiveDate": "",
+                        "LicenseStatus": "Current",
+                        "ExpirationDate": "",
+                        "StateRegionCode": "VA"
+                    }
+                ],
+                "LicenseRelationship": "Producer",
+                "LastModifiedFromDate": "03/22/2025",
+                "NationalProducerNumber": "",
+                "GeneralAgentCommunication": [
+                    {
+                        "ID": "5fc7edee-89cd-469e-91b1-6cfbce34be83",
+                        "PARENTID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                        "PhoneNumber": "7722265546",
+                        "EmailAddress": "jwatje@orchidinsurance.com"
+                    }
+                ],
+                "PrincipalContactIndicatorYN": "false"
+            }
+        ],
+        "UpdatedToDate": "10/09/2023",
+        "ParentAgencyID": "",
+        "UpdatedFromDate": "10/09/2023",
+        "ExternalAgencyID": "0017c0000115rmaAAA",
+        "GeneralAgencyDBA": "",
+        "IsLegacyAgencyYN": "",
+        "LastModifiedDate": "2023-10-09 21:15:55",
+        "MarketingManager": "0055f000004Tpc7AAC",
+        "ContractStartDate": "2023-03-01",
+        "GeneralAgencyType": "",
+        "LastModifiedToDate": "10/09/2023",
+        "GeneralAgencyNumber": "OUASLL",
+        "LicenseRelationship": "Agency",
+        "NationalPartnership": "",
+        "GeneralAgencyAddress": [
+            {
+                "ID": "9ae9a2da-f0b5-4dc1-9258-8a9ce0fcb64f",
+                "City": "Vero Beach",
+                "County": "FL",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "Zipcode1": "32960",
+                "Zipcode2": "",
+                "AddressType": "Primary",
+                "CountryCode": "",
+                "StateRegion": "",
+                "StateRegionCode": "",
+                "StreetNameAddress2": "",
+                "StreetNumberAddress1": "1201 19th Place, Ste A110"
+            },
+            {
+                "ID": "88e73dff-94f6-45b0-babb-24c22ccfc167",
+                "City": "Vero Beach",
+                "County": "FL",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "Zipcode1": "32960",
+                "Zipcode2": "",
+                "AddressType": "Billing",
+                "CountryCode": "",
+                "StateRegion": "Florida",
+                "StateRegionCode": "FL",
+                "StreetNameAddress2": "",
+                "StreetNumberAddress1": "1201 19th Place, Ste A110"
+            }
+        ],
+        "GeneralAgencyContact": [
+            {
+                "ID": "0b5a11c4-7748-47e7-8618-9d4ccb4f118a",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "ContactID": "3b607f77-11a0-42be-b4b2-76419efd23aa",
+                "LastName2": "Terzer",
+                "FirstName1": "Ron",
+                "ContactType": "",
+                "GeneralAgencyContactAddress": [
+                    {
+                        "ID": "0a7339a0-190d-4a64-898a-4d8f89c6c93c",
+                        "City": "Vero Beach",
+                        "County": "",
+                        "PARENTID": "0b5a11c4-7748-47e7-8618-9d4ccb4f118a",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place, Ste A110"
+                    }
+                ],
+                "GeneralAgencyContactCommunication": [
+                    {
+                        "ID": "5f39f4cf-e692-4b04-951a-48a869430490",
+                        "PARENTID": "0b5a11c4-7748-47e7-8618-9d4ccb4f118a",
+                        "EmailAddress": ""
+                    }
+                ]
+            }
+        ],
+        "GeneralAgencyLicense": [
+            {
+                "ID": "0fe87511-6c19-47b2-bb67-26948e01fc8b",
+                "Number": "128057",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "ExternalID": "a2d7c000001vaHsAAI",
+                "EffectiveDate": "2010-03-12",
+                "LicenseStatus": "Current",
+                "ExpirationDate": "3010-03-12",
+                "StateRegionCode": "VA"
+            }
+        ],
+        "LastModifiedFromDate": "10/09/2023",
+        "GeneralAgencyCommunication": [
+            {
+                "ID": "6b0700b9-a295-4112-9f70-a1e8ca6c3f1b",
+                "Fax": "",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "PhoneNumber": "7722265546",
+                "EmailAddress": ""
+            }
+        ],
+        "NationalPartnershipSubcode": "",
+        "ParentAgencyControlCommission": "false"
+    },
+    "ProcessStatus": "Submission In Progress",
+    "UpdatedToDate": "10/20/2025",
+    "GeneralAgentId": "6fbba6be-8197-42b8-be81-24480c3e8339",
+    "LastModifiedBy": "chenoaqaagent@test.com",
+    "SubmissionType": "New Business",
+    "SystemOfRecord": "Marketplace",
+    "CreatedFromDate": "10/20/2025",
+    "GeneralAgencyId": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+    "UpdatedFromDate": "10/20/2025",
+    "LastModifiedDate": "2025-10-20 15:48:33",
+    "SubmissionNumber": "SN853838",
+    "SubmissionStatus": "In Progress",
+    "LastModifiedToDate": "10/20/2025",
+    "NewBusinessPurpose": "Standard",
+    "PolicyEffectiveDate": "2025-10-17",
+    "LastModifiedFromDate": "10/20/2025",
+    "ExternalSystemDetails": [
+        {
+            "ID": "af7959a2-4e9b-470b-ab0f-4ff3a5a1be3b",
+            "PARENTID": "e158195a-ba65-4f68-ae58-99ce97013149",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "38341bee-faaf-437e-9526-7f0dfc296597",
+            "PARENTID": "e158195a-ba65-4f68-ae58-99ce97013149",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "391f860b-fe64-4566-ae4b-761aa0dea9d6",
+            "PARENTID": "e158195a-ba65-4f68-ae58-99ce97013149",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "4deb8ca2-67c1-45fa-9320-e9f8a898d9a5",
+            "PARENTID": "e158195a-ba65-4f68-ae58-99ce97013149",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "e4e6dbde-f1f8-49fe-b091-2d8507394d7a",
+            "PARENTID": "e158195a-ba65-4f68-ae58-99ce97013149",
+            "ExternalPageID": ""
+        }
+    ]
+}

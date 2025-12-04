@@ -1,0 +1,1156 @@
+{
+    "ID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+    "Account": {
+        "ID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+        "Dob": "2000-11-12",
+        "AgentId": "b764c780-30d4-4c2c-8599-c76f947b8bf5",
+        "Insured": [
+            {
+                "ID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                "Dob": "2000-11-12",
+                "Type": "Individual",
+                "AgentId": "b764c780-30d4-4c2c-8599-c76f947b8bf5",
+                "OwnerId": "4742",
+                "AgencyId": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                "Criminal": "false",
+                "Location": [
+                    {
+                        "ID": "771a2bed-671b-4366-85f2-77c32b1a48fc",
+                        "City": "Sterling",
+                        "County": "Loudoun",
+                        "Country": "USA",
+                        "Building": [
+                            {
+                                "ID": "242b3d69-4abb-4ffe-b761-e238db86d3f1",
+                                "GridID": "389807743",
+                                "CondoYN": "No",
+                                "ForSale": "No",
+                                "ResType": "Single Family",
+                                "Coverage": [
+                                    {
+                                        "ID": "32a469de-038c-40c1-9600-e71ad3109e7d",
+                                        "ACVRoof": "No",
+                                        "MoldCov": "No Coverage",
+                                        "PARENTID": "242b3d69-4abb-4ffe-b761-e238db86d3f1",
+                                        "TotalFee": "520.71",
+                                        "TotalTax": "45.92",
+                                        "BasePremium": "1521.00",
+                                        "TermInMonths": "12",
+                                        "TotalPremium": "2087.63",
+                                        "WindCoverage": "Yes",
+                                        "LossAssessment": "5000",
+                                        "TheftExclusion": "No",
+                                        "AnimalLiability": "25000",
+                                        "DwellingCoverage": "536000",
+                                        "PolicyformOption": "RCV",
+                                        "LossOfUseCoverage": "10",
+                                        "TotalInsuredValue": "734320",
+                                        "EquipmentBreakdown": "No",
+                                        "FloodEndorsementYN": "No",
+                                        "WindDeductibleType": "Windstorm or Hail",
+                                        "LimitedMoldCoverage": "No Coverage",
+                                        "MiscsurchargeFactor": "0.0",
+                                        "WaterDamageSublimit": "10000",
+                                        "DeductiblePercentage": "1",
+                                        "EarthquakeDeductible": "No Coverage",
+                                        "OrdinanceLawCoverage": "10",
+                                        "WindDeductibleAmount": "5360.00",
+                                        "CalculatedBasePremium": "1521.09",
+                                        "GreenUpgradesCoverage": "No",
+                                        "LossOfUseCovadjAmount": "53600",
+                                        "ServiceLineCoverageYN": "No",
+                                        "WaterBackupDeductible": "No Coverage",
+                                        "WaterDamageDeductible": "2500",
+                                        "InflationGuardCoverage": "3",
+                                        "OtherStructureCoverage": "2",
+                                        "PersonalPropertyAmount": "134000",
+                                        "AdditionalTheftCoverage": "No",
+                                        "IdentityFraudCoverageYN": "No",
+                                        "SpecialComputerCoverage": "No",
+                                        "IncreasedReplacementCost": "No",
+                                        "MedicalPaymentsCoverageM": "1000",
+                                        "PersonalPropertyCoverage": "25",
+                                        "AopPolicyDeductibleAmount": "1000",
+                                        "RefrigeratedGoodsCoverage": "No",
+                                        "OrdinanceLawCoverageAmount": "53600",
+                                        "OtherStructureCovadjAmount": "10720",
+                                        "PersonalLiabilityCoverageL": "100000",
+                                        "TotalOptionalCoveragePremium": "0.00",
+                                        "GolfCartPhysicalDamageCoverage": "No",
+                                        "ExtendedReplacementCostCanopius": "No",
+                                        "ScheduledPersonalPropertyCoverage": "No"
+                                    }
+                                ],
+                                "HVACCool": "Central Air Conditioning",
+                                "HotTubYN": "None",
+                                "PARENTID": "771a2bed-671b-4366-85f2-77c32b1a48fc",
+                                "SquareFt": "2020",
+                                "DateBuilt": "2000",
+                                "FireAlarm": "Smoke Detectors",
+                                "Occupancy": "Primary",
+                                "RoofShape": "Gable",
+                                "Foundation": "Crawlspace",
+                                "GarageType": "2 Car (397 - 576 sq ft)",
+                                "TypeOfHVAC": "Forced Air Heating System",
+                                "LossHistory": [],
+                                "PriorMarket": "New Purchase",
+                                "RoofUpdated": "2020",
+                                "SmartHomeYN": "No",
+                                "BurglarAlarm": "None",
+                                "PlumbingType": "Unknown",
+                                "RoofMaterial": "Composition - Architectural Shingle",
+                                "OtherBusiness": "No",
+                                "AluminumWiring": "No",
+                                "ExteriorSiding": "Solid Log - Medium (9-12)",
+                                "HeatingUpdated": "2020",
+                                "NumberOfClaims": "0",
+                                "StudentHousing": "No",
+                                "ConvictedFelony": "No",
+                                "ElectricUpdated": "2020",
+                                "IsThereFuelTank": "Above Ground",
+                                "LaundryLocation": "Basement",
+                                "NumberOfStories": "1 Story",
+                                "PlumbingUpdated": "2020",
+                                "ProtectionClass": "1",
+                                "PurchasedAmount": "PurchasedAmount",
+                                "RentedResidence": "No",
+                                "SolarPanelsType": "None",
+                                "ConstructionType": "Concrete Block",
+                                "AnimalsOnPremises": "No",
+                                "DayCareonPremises": "No",
+                                "FirstPartyLawSuit": "No",
+                                "HaveFloodPolicyYN": "Yes",
+                                "InteriorSprinkler": "None",
+                                "NumberOfOccupants": "1",
+                                "NumberofBathrooms": 71,
+                                "Greaterthan10acres": "No",
+                                "MitigationOpenings": "No Protection",
+                                "WaterHeaterUpdated": "2020",
+                                "IsPreexistingDamage": "No",
+                                "PrimarySourceofHeat": "No",
+                                "RoofDeckAttachments": "Unknown",
+                                "WaterHeaterLocation": "Basement",
+                                "CoastalWaterDistance": "> 50 miles",
+                                "IsPolybutylenePiping": "No",
+                                "ListOnHistoricPlaces": "No",
+                                "RoofToWallConnection": "Unknown",
+                                "TrampolineOnPremises": "No",
+                                "HighProfileIndividual": "No",
+                                "IsApplicationCompleted": "Yes",
+                                "SwimmingPoolOnPremises": "None",
+                                "CancelledByPriorCarrier": "No",
+                                "PropertyCurrentlyInsured": "New Purchase",
+                                "RoofBuildingCertification": "No",
+                                "AluminumKnobTubeFuseWiring": "No",
+                                "MobileKitPrefabricatedHome": "No",
+                                "LossHistoryIntegrationStatus": "Success",
+                                "IsNewConstructionOrRenovation": "No",
+                                "CanopiusCancelledByPriorCarrier": "No",
+                                "ElectricalSystemOnCircuitBreakers": "Yes"
+                            }
+                        ],
+                        "Latitude": "38.9804951",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "Zipcode1": "20166",
+                        "Longitude": "-77.4336474",
+                        "CountryCode": "US",
+                        "GeoLatitude": "38.9804951",
+                        "StateRegion": "VA",
+                        "GeoLongitude": "-77.4336474",
+                        "ThirdPartyCity": "Sterling",
+                        "StateRegionCode": "VA",
+                        "ThirdPartyCounty": "Somerset",
+                        "NumberOfBuildings": "1",
+                        "ThirdPartyZipcode1": "20166",
+                        "LocationFullAddress": "23000 Indian Creek Dr, Sterling, VA 20166, USA",
+                        "StreetNumberAddress1": "23000 Indian Creek Drive",
+                        "ThirdPartyFullAddress": "23000 Indian Creek Dr, Sterling, VA 20166, USA"
+                    }
+                ],
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "CreatedBy": "chenoaqaagent@test.com",
+                "InsuredID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                "LastName2": "dsfg",
+                "OFACScore": "0",
+                "UpdatedBy": "chenoaqaagent@test.com",
+                "FirstName1": "dfs",
+                "ScoreRange": "O",
+                "CreatedDate": "2025-11-12 17:11:14",
+                "InsuredName": "dfs dsfg",
+                "OFACSuccess": "Y",
+                "UpdatedDate": "2025-11-13 13:52:03",
+                "PrincipalDOB": "2000-11-12",
+                "AccountNumber": "836835",
+                "CreatedToDate": "11/12/2025",
+                "InsuredNumber": "H100872785",
+                "MaritalStatus": "Married",
+                "UpdatedToDate": "11/13/2025",
+                "InsuranceScore": "No Score",
+                "InsuredAddress": [
+                    {
+                        "ID": "a88adea2-dc05-4864-b79f-0de2ad705cf3",
+                        "City": "Sterling",
+                        "County": "Loudoun",
+                        "Country": "USA",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "Zipcode1": "20166",
+                        "AddressType": "Primary",
+                        "CountryCode": "US",
+                        "StateRegion": "VA",
+                        "StateRegionCode": "VA",
+                        "InsuredFullAddress": "23000 Indian Creek Dr, Sterling, VA 20166, USA",
+                        "StreetNumberAddress1": "23000 Indian Creek Drive"
+                    }
+                ],
+                "LastModifiedBy": "chenoaqaagent@test.com",
+                "RunDateandTime": "11-13-2025 13:51:23",
+                "CreatedFromDate": "11/12/2025",
+                "TaxExemptStatus": "No",
+                "UpdatedFromDate": "11/13/2025",
+                "LastModifiedDate": "2025-11-13 13:52:03",
+                "AdditionalInsured": [
+                    {
+                        "ID": "adb1e62b-797b-43a2-b639-a7a86c38694f",
+                        "Dob": "2000-11-12",
+                        "Criminal": "false",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "LastName2": "dsfg",
+                        "OFACScore": "0",
+                        "FirstName1": "dfs",
+                        "InsuredType": "PrimaryPrincipal",
+                        "RunDateandTime": "11-13-2025 13:51:23",
+                        "AdditionalInsuredAddress": [
+                            {
+                                "ID": "058b654a-553d-48fd-bbcf-0aaf6531b6be",
+                                "City": "Sterling",
+                                "PARENTID": "adb1e62b-797b-43a2-b639-a7a86c38694f",
+                                "Zipcode1": "20166",
+                                "FullAddress": "23000 Indian Creek Dr, Sterling, VA 20166, USA",
+                                "StateRegionCode": "VA",
+                                "StreetNumberAddress1": "23000 Indian Creek Drive"
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "a88adea2-dc05-4864-b79f-0de2ad705cf3",
+                        "Dob": "2000-11-12",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "LastName2": "dsfg",
+                        "FirstName1": "dfs",
+                        "InsuredType": "PrimaryPrincipal",
+                        "AdditionalInsuredAddress": [
+                            {
+                                "ID": "a88adea2-dc05-4864-b79f-0de2ad705cf3",
+                                "City": "Sterling",
+                                "Country": "USA",
+                                "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                                "Zipcode1": "20166",
+                                "CountryCode": "US",
+                                "FullAddress": "23000 Indian Creek Dr, Sterling, VA 20166, USA",
+                                "StateRegion": "VA",
+                                "StateRegionCode": "VA",
+                                "StreetNumberAddress1": "23000 Indian Creek Drive"
+                            }
+                        ]
+                    }
+                ],
+                "PrincipalLastName": "dsfg",
+                "InsuredFullAddress": "23000 Indian Creek Dr, Sterling, VA 20166, USA",
+                "LastModifiedToDate": "11/13/2025",
+                "PrincipalFirstName": "dfs",
+                "InsuranceScoreStatus": "Success",
+                "InsuredCommunication": [
+                    {
+                        "ID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "PhoneNumber": "2332132131",
+                        "EmailAddress": "asfas@sd.com"
+                    }
+                ],
+                "LastModifiedFromDate": "11/13/2025",
+                "InsuranceScoreFactors": [
+                    {
+                        "ID": "48c5d5a4-b125-4fe2-9f14-6801b8611aa0",
+                        "Status": "Credit bureau no-hit",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "ReasonCode": "No Hit",
+                        "ScoreProvider": "LexisNexis",
+                        "InsuranceScore": "12",
+                        "ReferenceNumber": "25316022451115",
+                        "ReasonDescription": "                                Our inquiry resulted in a no hit. If you would like us to make another attempt, please                                request this through your agent. Your premium may be higher or lower based on the results                                received."
+                    },
+                    {
+                        "ID": "2c95f696-4327-4258-97b8-d7cc7f91d936",
+                        "Status": "Credit bureau no-hit",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "ReasonCode": "No Hit",
+                        "ScoreProvider": "LexisNexis",
+                        "InsuranceScore": "12",
+                        "ReferenceNumber": "25316022451115",
+                        "ReasonDescription": "                                Our inquiry resulted in a no hit. If you would like us to make another attempt, please                                request this through your agent. Your premium may be higher or lower based on the results                                received."
+                    }
+                ],
+                "SelectedLineOfBusiness": [
+                    {
+                        "ID": "4537dc69-ec5f-43c3-80b3-a0e8bbf46579",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "38da982d-597d-4455-bf92-33ed300a38e6",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "777e2803-476e-4dd6-95fc-17c5dd488e52",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "0dbe7ed8-a112-4d28-bb91-9f94baf6d252",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "6f3c78cb-207a-4495-ad5d-92865f20338e",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "4390e860-7fda-4585-b214-fd9f6d968b8e",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "3e4ce395-f20e-42f0-a5da-72578752d178",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "92a9e398-089c-44b5-87a6-88867831266e",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "00bad20a-6113-4fed-b534-2ac3134b2235",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "89fb3326-a9b8-47fa-8806-b974409e366a",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "ac357f93-7a7f-4cb2-86f0-b792704110dc",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "fa561dbb-d647-4508-94a8-d78d160890f1",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "1198297e-f120-45bb-b7f8-d007d3b12514",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "39590e5f-e215-4e50-a4a4-237e84eb6068",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "7923f799-41f4-44ac-aae3-9bac997cd8cd",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "88d714aa-1cb2-49fa-8181-3570cec1323d",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "61431e4f-a54a-4470-96bb-5a117d12d713",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "d5c45190-03bd-401f-86d7-c4aa9c26558e",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "5950f54b-6f2b-4bbc-908e-0281cee7ae81",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "5824c7ea-9a32-4c1c-b8b1-ab80df2d0d6a",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "bc17a1ad-8658-4fe1-98db-a9b4396f26fa",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "13be4d4b-8d3a-4f43-9a41-9c6edae7ecb8",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "6ed9806e-88e3-4085-bcf6-629f11278701",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "8a4be382-ea3d-4e7b-8f5b-6b00360ae3fd",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "fb40cf08-bab7-45e4-81e2-15e56aaca7e0",
+                        "LOBName": "PL",
+                        "PARENTID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+                        "InsuranceType": "Homeowners"
+                    }
+                ],
+                "NumberofPropertiesOwned": "1"
+            }
+        ],
+        "OwnerId": "4742",
+        "AgencyId": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+        "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+        "AccountID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+        "CreatedBy": "chenoaqaagent@test.com",
+        "LastName2": "dsfg",
+        "UpdatedBy": "chenoaqaagent@test.com",
+        "FirstName1": "dfs",
+        "AccountName": "dfs dsfg",
+        "CreatedDate": "2025-11-12 17:11:14",
+        "UpdatedDate": "2025-11-13 13:52:03",
+        "AccountNumber": "836835",
+        "CreatedToDate": "11/12/2025",
+        "UpdatedToDate": "11/13/2025",
+        "AccountAddress": [
+            {
+                "ID": "5d9a0d72-05ce-46c7-b17f-99a5c31aad72",
+                "City": "Sterling",
+                "County": "Loudoun",
+                "Country": "USA",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "Zipcode1": "20166",
+                "AddressType": "Primary",
+                "CountryCode": "US",
+                "StateRegion": "VA",
+                "StateRegionCode": "VA",
+                "AccountFullAddress": "23000 Indian Creek Dr, Sterling, VA 20166, USA",
+                "StreetNumberAddress1": "23000 Indian Creek Drive"
+            }
+        ],
+        "LastModifiedBy": "chenoaqaagent@test.com",
+        "CreatedFromDate": "11/12/2025",
+        "UpdatedFromDate": "11/13/2025",
+        "LastModifiedDate": "2025-11-13 13:52:03",
+        "LastModifiedToDate": "11/13/2025",
+        "LastModifiedFromDate": "11/13/2025",
+        "SelectedLineOfBusiness": [
+            {
+                "ID": "321a9cab-db65-4194-90aa-41d81140bac7",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "ab569139-6e08-4ec7-8a3a-7f21a1d54578",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "eab2e47b-0592-4b9a-b4bd-f42cbf4a8361",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "b76e835f-f2d7-4fc5-a9da-2365b29902dd",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "27edc524-dcc6-407d-a929-1440e045c974",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "ca004d90-61d4-48d5-bb2a-070f9699d5f2",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "f16e2abb-e078-4851-ac1d-cb51cd22475d",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "a423fb71-d1c1-4310-be5c-f341b3f69545",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "ae8bb525-3b5f-46a8-87b0-d725b2c96666",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "75bd5fed-0bdd-4574-b07d-3bf78dc3dae7",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "f8cd2c48-7345-4ffb-ad80-a93836eaa98f",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "0358c69e-e635-4c46-bfa7-db50ef25c0a1",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "55e85422-da42-4962-876b-bdbe0dcfa529",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "be5bb6a1-b90b-4931-ab1d-45af2b629f97",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "0e00c439-755b-4a9a-b7c3-80163eec2279",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "e473ffa9-6c9f-4a8e-8df4-063fbfba4e9f",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "ccabe6cb-fb67-46ab-a96f-f7625f89f0f5",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "1c89070a-473a-46ca-99fb-4199e90cb99e",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "cd8ce7c9-ff16-494c-9982-0d3fd47c651d",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "62963e9a-a232-4525-a192-75127f5825ed",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "659672da-70b6-4403-a6ee-eecdce610419",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "e7d1dfb2-24d3-47f2-9595-a53bcf3568b0",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "754a9ee5-2034-42ee-aa30-89b3b1fb77a8",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "652541c1-e64a-478d-b4f1-8d5245d54a05",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "03f52f1f-2a17-4039-b1c4-99dbc10d0e6a",
+                "LOBName": "PL",
+                "PARENTID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+                "InsuranceType": "Homeowners"
+            }
+        ]
+    },
+    "AgentID": "b764c780-30d4-4c2c-8599-c76f947b8bf5",
+    "OwnerId": "4742",
+    "AgencyID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+    "AccountID": "b392ba7e-fb47-49b0-8e79-0e708c3f10dd",
+    "CreatedBy": "chenoaqaagent@test.com",
+    "InsuredID": "2ea00d07-a947-4ce2-b029-a0c0713b680e",
+    "UpdatedBy": "chenoaqaagent@test.com",
+    "CarrierName": "Lloyds_Canopius",
+    "CreatedDate": "2025-11-12 17:11:14",
+    "SublineName": "HO3",
+    "UpdatedDate": "2025-11-13 13:52:03",
+    "SourceSystem": "Unqork",
+    "SubmissionID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+    "CreatedToDate": "11/12/2025",
+    "GeneralAgency": {
+        "ID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+        "Name": "Orchid Underwriters Surplus Lines Licensing",
+        "Agency": [
+            {
+                "ID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                "Name": "Orchid Accounting",
+                "Agent": [
+                    {
+                        "ID": "b764c780-30d4-4c2c-8599-c76f947b8bf5",
+                        "TaxID": "",
+                        "Status": "Active",
+                        "OwnerId": "4742",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "Standing": "",
+                        "AgentName": "Thomas Royal",
+                        "CreatedBy": "Orchid_Renewal",
+                        "LastName2": "Royal",
+                        "UpdatedBy": "Orchid_Renewal",
+                        "AgencyName": "Orchid Accounting",
+                        "FirstName1": "Thomas",
+                        "AgentNumber": "",
+                        "ContactType": "Agent",
+                        "CreatedDate": "2024-03-12 12:16:15",
+                        "MiddleName3": "",
+                        "UpdatedDate": "2025-03-03 11:26:59",
+                        "AgencyNumber": "AGY6787",
+                        "AgentAddress": [
+                            {
+                                "ID": "954d9f7c-1b0b-4ad3-9614-949cdd8f26d4",
+                                "City": "Vero Beach",
+                                "County": "Indian River",
+                                "PARENTID": "b764c780-30d4-4c2c-8599-c76f947b8bf5",
+                                "Zipcode1": "32964-3250",
+                                "Zipcode2": "",
+                                "CountryCode": "US",
+                                "StateRegion": "Florida",
+                                "StateRegionCode": "FL",
+                                "StreetNameAddress2": "",
+                                "StreetNumberAddress1": "None"
+                            }
+                        ],
+                        "AgentLicense": [],
+                        "UpdatedToDate": "03/03/2025",
+                        "IsAgentAdminYN": "false",
+                        "ExternalAgentID": "0037c000018BkBqAAK",
+                        "UpdatedFromDate": "03/03/2025",
+                        "ExternalAgencyID": "0015f00000L0GtEAAV",
+                        "IsAgentCSRUserYN": "false",
+                        "LastModifiedDate": "2025-03-03 11:26:59",
+                        "AgentCommunication": [
+                            {
+                                "ID": "d67c40ba-fe8e-4747-a8c6-983f00dfb048",
+                                "PARENTID": "b764c780-30d4-4c2c-8599-c76f947b8bf5",
+                                "PhoneNumber": "(772) 231-2022",
+                                "EmailAddress": "troyal2@orchidinsurance.com"
+                            }
+                        ],
+                        "LastModifiedToDate": "03/03/2025",
+                        "LicenseRelationship": "Producer",
+                        "LastModifiedFromDate": "03/03/2025",
+                        "NationalProducerNumber": "",
+                        "PrincipalContactIndicatorYN": "true"
+                    }
+                ],
+                "TaxID": "93-2866672",
+                "Status": "Active",
+                "OwnerId": "4742",
+                "Standing": "Good",
+                "AgencyDBA": "",
+                "CreatedBy": "Orchid_Renewal",
+                "UpdatedBy": "Orchid_Renewal",
+                "AgencyType": "PL",
+                "CreatedDate": "2024-03-12 06:29:54",
+                "UpdatedDate": "2025-11-12 23:30:35",
+                "AgencyNumber": "AGY6787",
+                "WireTransfer": "true",
+                "AgencyAddress": [
+                    {
+                        "ID": "6b21fa11-caf6-4da1-86d5-b8752c1aefbb",
+                        "City": "Vero Beach",
+                        "County": "Indian River",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "AddressType": "Primary",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place Suite A110"
+                    },
+                    {
+                        "ID": "bf9acffd-5469-4054-9b98-7b5e01e3c670",
+                        "City": "Vero Beach",
+                        "County": "Indian River",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "AddressType": "Billing",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place, Suite A110"
+                    }
+                ],
+                "AgencyContact": [
+                    {
+                        "ID": "899e6edb-0d84-4d7d-9aad-3afdc3d5ea25",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "ContactID": "472dc180-c3aa-4e8e-a968-484af6ea339e",
+                        "LastName2": "Walker",
+                        "FirstName1": "Amy",
+                        "ContactType": "Principal Contact",
+                        "AgencyContactAddress": [
+                            {
+                                "ID": "08187833-7f6b-4bc0-a79d-3a772b2acee5",
+                                "City": "Vero Beach",
+                                "County": "Indian River",
+                                "PARENTID": "899e6edb-0d84-4d7d-9aad-3afdc3d5ea25",
+                                "Zipcode1": "32960",
+                                "Zipcode2": "",
+                                "CountryCode": "US",
+                                "StateRegion": "Florida",
+                                "StateRegionCode": "FL",
+                                "StreetNameAddress2": "",
+                                "StreetNumberAddress1": "1201 19th Place, Suite A110"
+                            }
+                        ],
+                        "AgencyContactCommunication": [
+                            {
+                                "ID": "2ee168e0-ace5-4a71-8929-25dd7b930e1c",
+                                "PARENTID": "899e6edb-0d84-4d7d-9aad-3afdc3d5ea25",
+                                "EmailAddress": "awalker2@orchidinsurance.com"
+                            }
+                        ]
+                    }
+                ],
+                "AgencyLicense": [],
+                "UpdatedToDate": "11/12/2025",
+                "ParentAgencyID": "9911b34a-b071-43b2-b171-4ff4fd921b87",
+                "X1099Indicator": "true",
+                "CommissionPayee": "Split",
+                "UpdatedFromDate": "11/12/2025",
+                "ExternalAgencyID": "0015f00000L0GtEAAV",
+                "IsLegacyAgencyYN": "No",
+                "LastModifiedDate": "2025-11-12 23:30:35",
+                "MarketingManager": "0055f0000099uLHAAY",
+                "AgencyLicenseName": "Orchid Insurance",
+                "ContractStartDate": "",
+                "CIC_Eligibility__c": "Yes",
+                "ExternalAgencyCode": "",
+                "LastModifiedToDate": "11/12/2025",
+                "QBE_Eligibility__c": "Yes",
+                "AgencyCommunication": [
+                    {
+                        "ID": "d9ae81b9-7489-4f65-b023-effebe489504",
+                        "Fax": "",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "PhoneNumber": "772-257-7988",
+                        "EmailAddress": "renewaluat@orchidinsurance.com"
+                    }
+                ],
+                "LicenseRelationship": "Agency",
+                "NationalPartnership": "",
+                "LastModifiedFromDate": "11/12/2025",
+                "Chaucer_Eligibility__c": "Yes",
+                "Neptune_Eligibility__c": "No",
+                "Lloyds_BA_Eligibility__c": "Yes",
+                "Accredited_Eligibility__c": "Yes",
+                "Chubb_Euro_Eligibility__c": "Yes",
+                "Transverse_Eligibility__c": "Yes",
+                "NationalPartnershipSubcode": "",
+                "Beazley_BESI_Eligibility__c": "Yes",
+                "RenaissanceRe_Eligibility__c": "Yes",
+                "ParentAgencyControlCommission": "false",
+                "Lloyds_Canopius_Eligibility__c": "Yes",
+                "Lloyds_Northeast_Eligibility__c": "Yes",
+                "Lloyds_Preferred_Eligibility__c": "Yes",
+                "RenewalParentAgencyCommissionSharePercentage": "23",
+                "NewBusinessParentAgencyCommissionSharePercentage": "22"
+            }
+        ],
+        "Status": "Active",
+        "OwnerId": "4742",
+        "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+        "CreatedBy": "Orchid_Nandagopal",
+        "UpdatedBy": "Orchid_Nandagopal",
+        "CreatedDate": "2023-09-27 21:02:31",
+        "UpdatedDate": "2023-10-09 21:15:55",
+        "GeneralAgent": [
+            {
+                "ID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                "TaxID": "",
+                "Status": "Active",
+                "OwnerId": "4742",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "Standing": "",
+                "AgentName": "James R. Watje",
+                "CreatedBy": "LION-98_Import",
+                "LastName2": "Watje",
+                "UpdatedBy": "LION-98_Import",
+                "FirstName1": "James R.",
+                "ContactType": "Principal Contact",
+                "CreatedDate": "2025-03-21 11:18:31",
+                "MiddleName3": "",
+                "UpdatedDate": "2025-03-22 09:00:37",
+                "UpdatedToDate": "03/22/2025",
+                "IsAgentAdminYN": "false",
+                "ExternalAgentID": "003Nq00000X9Z1xIAF",
+                "UpdatedFromDate": "03/22/2025",
+                "ExternalAgencyID": "0017c0000115rmaAAA",
+                "IsAgentCSRUserYN": "false",
+                "LastModifiedDate": "2025-03-22 09:00:37",
+                "GeneralAgencyName": "Orchid Underwriters Surplus Lines Licensing",
+                "ExternalAgencyCode": "",
+                "GeneralAgentNumber": "",
+                "LastModifiedToDate": "03/22/2025",
+                "GeneralAgencyNumber": "OUASLL",
+                "GeneralAgentAddress": [
+                    {
+                        "ID": "e2f763cc-ef3d-49e8-823a-fcbad992053a",
+                        "City": "Vero Beach",
+                        "County": "FL",
+                        "PARENTID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place, Ste A110"
+                    }
+                ],
+                "GeneralAgentLicense": [
+                    {
+                        "ID": "07fe871d-16e2-43eb-8911-7e47df935702",
+                        "Number": "1204388",
+                        "PARENTID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                        "ExternalID": "a2dNq000000W2rVIAS",
+                        "EffectiveDate": "",
+                        "LicenseStatus": "Current",
+                        "ExpirationDate": "",
+                        "StateRegionCode": "VA"
+                    }
+                ],
+                "LicenseRelationship": "Producer",
+                "LastModifiedFromDate": "03/22/2025",
+                "NationalProducerNumber": "",
+                "GeneralAgentCommunication": [
+                    {
+                        "ID": "5fc7edee-89cd-469e-91b1-6cfbce34be83",
+                        "PARENTID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                        "PhoneNumber": "7722265546",
+                        "EmailAddress": "jwatje@orchidinsurance.com"
+                    }
+                ],
+                "PrincipalContactIndicatorYN": "false"
+            }
+        ],
+        "UpdatedToDate": "10/09/2023",
+        "ParentAgencyID": "",
+        "UpdatedFromDate": "10/09/2023",
+        "ExternalAgencyID": "0017c0000115rmaAAA",
+        "GeneralAgencyDBA": "",
+        "IsLegacyAgencyYN": "",
+        "LastModifiedDate": "2023-10-09 21:15:55",
+        "MarketingManager": "0055f000004Tpc7AAC",
+        "ContractStartDate": "2023-03-01",
+        "GeneralAgencyType": "",
+        "LastModifiedToDate": "10/09/2023",
+        "GeneralAgencyNumber": "OUASLL",
+        "LicenseRelationship": "Agency",
+        "NationalPartnership": "",
+        "GeneralAgencyAddress": [
+            {
+                "ID": "9ae9a2da-f0b5-4dc1-9258-8a9ce0fcb64f",
+                "City": "Vero Beach",
+                "County": "FL",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "Zipcode1": "32960",
+                "Zipcode2": "",
+                "AddressType": "Primary",
+                "CountryCode": "",
+                "StateRegion": "",
+                "StateRegionCode": "",
+                "StreetNameAddress2": "",
+                "StreetNumberAddress1": "1201 19th Place, Ste A110"
+            },
+            {
+                "ID": "88e73dff-94f6-45b0-babb-24c22ccfc167",
+                "City": "Vero Beach",
+                "County": "FL",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "Zipcode1": "32960",
+                "Zipcode2": "",
+                "AddressType": "Billing",
+                "CountryCode": "",
+                "StateRegion": "Florida",
+                "StateRegionCode": "FL",
+                "StreetNameAddress2": "",
+                "StreetNumberAddress1": "1201 19th Place, Ste A110"
+            }
+        ],
+        "GeneralAgencyContact": [
+            {
+                "ID": "0b5a11c4-7748-47e7-8618-9d4ccb4f118a",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "ContactID": "3b607f77-11a0-42be-b4b2-76419efd23aa",
+                "LastName2": "Terzer",
+                "FirstName1": "Ron",
+                "ContactType": "",
+                "GeneralAgencyContactAddress": [
+                    {
+                        "ID": "0a7339a0-190d-4a64-898a-4d8f89c6c93c",
+                        "City": "Vero Beach",
+                        "County": "",
+                        "PARENTID": "0b5a11c4-7748-47e7-8618-9d4ccb4f118a",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place, Ste A110"
+                    }
+                ],
+                "GeneralAgencyContactCommunication": [
+                    {
+                        "ID": "5f39f4cf-e692-4b04-951a-48a869430490",
+                        "PARENTID": "0b5a11c4-7748-47e7-8618-9d4ccb4f118a",
+                        "EmailAddress": ""
+                    }
+                ]
+            }
+        ],
+        "GeneralAgencyLicense": [
+            {
+                "ID": "0fe87511-6c19-47b2-bb67-26948e01fc8b",
+                "Number": "128057",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "ExternalID": "a2d7c000001vaHsAAI",
+                "EffectiveDate": "2010-03-12",
+                "LicenseStatus": "Current",
+                "ExpirationDate": "3010-03-12",
+                "StateRegionCode": "VA"
+            }
+        ],
+        "LastModifiedFromDate": "10/09/2023",
+        "GeneralAgencyCommunication": [
+            {
+                "ID": "6b0700b9-a295-4112-9f70-a1e8ca6c3f1b",
+                "Fax": "",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "PhoneNumber": "7722265546",
+                "EmailAddress": ""
+            }
+        ],
+        "NationalPartnershipSubcode": "",
+        "ParentAgencyControlCommission": "false"
+    },
+    "ProcessStatus": "Submission In Progress",
+    "UpdatedToDate": "11/13/2025",
+    "GeneralAgentId": "6fbba6be-8197-42b8-be81-24480c3e8339",
+    "LastModifiedBy": "chenoaqaagent@test.com",
+    "SubmissionType": "New Business",
+    "SystemOfRecord": "Marketplace",
+    "CreatedFromDate": "11/12/2025",
+    "GeneralAgencyId": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+    "UpdatedFromDate": "11/13/2025",
+    "LastModifiedDate": "2025-11-13 13:52:03",
+    "SubmissionNumber": "SN884108",
+    "SubmissionStatus": "In Progress",
+    "LastModifiedToDate": "11/13/2025",
+    "NewBusinessPurpose": "Standard",
+    "PolicyEffectiveDate": "11-19-2025",
+    "LastModifiedFromDate": "11/13/2025",
+    "ExternalSystemDetails": [
+        {
+            "ID": "0c06e397-d0d3-4ec1-b105-070dad66836f",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "a163168f-336a-4c5e-8ac3-e953d562604a",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "77991274-4314-4e77-89ff-8959f5811ded",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "cc76147a-6418-41c6-bf83-78e230758804",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "93bb89f1-0707-4141-9328-c85607013f78",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "8e6dc7c1-a9b8-4c88-a07d-8fc54b5159f7",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "0cd40830-7965-4b13-8f8c-40ce1a7f006a",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "e905f24a-5dd4-4014-9242-db71d264e83e",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "233255e6-cbd2-4dfb-b5f5-5d4724a53adb",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "5bd49169-8529-4cd3-a8ab-d04e0efaae93",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "93e95c93-c238-47b3-b56f-00eb1af7e60e",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "37c09684-0bff-4af0-92e2-f7fe767f38d3",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "74355e56-7895-4f99-9b92-97953215618a",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "ccca9937-0264-429c-b7b1-679c522a8245",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "198fb430-9fd3-47c8-8be1-e4921632ab07",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "0a41fe1b-9f29-4a2d-8ddb-6da5378e07e0",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "7e6e8250-6612-4517-a1a8-017a7089fdf3",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "9041e2ad-d273-4922-a96d-a440f2addb5f",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "562a8e40-1871-45ce-957c-19f8a642b078",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "743f3815-23b2-4b78-8741-49734a628ce6",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "0782e3a1-7499-41e5-afee-d3026237db7c",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "dd1b33c4-325a-4718-863c-d21a1c665e9a",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "721870f1-541c-4766-87fb-8b27668b9cd2",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "b7cadad0-0209-493c-a668-f8ceca360916",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        },
+        {
+            "ID": "31295c1e-4c1d-4722-8366-a360ff117cb0",
+            "PARENTID": "f5187b69-8d86-4812-826f-ec25acc46f5f",
+            "ExternalPageID": "availableMarkets"
+        }
+    ]
+}

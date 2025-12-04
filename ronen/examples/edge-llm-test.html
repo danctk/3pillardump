@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronen Edge LLM Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9fafb;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #1f2937;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .status {
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        .status.loading {
+            background: #fef3c7;
+            color: #92400e;
+            border-left: 4px solid #f59e0b;
+        }
+        .status.ready {
+            background: #d1fae5;
+            color: #065f46;
+            border-left: 4px solid #10b981;
+        }
+        .status.error {
+            background: #fee2e2;
+            color: #991b1b;
+            border-left: 4px solid #ef4444;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #374151;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            box-sizing: border-box;
+        }
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+        .field-container {
+            position: relative;
+        }
+        .info {
+            font-size: 14px;
+            color: #6b7280;
+            margin-top: 8px;
+        }
+        .model-info {
+            background: #f3f4f6;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .model-info h3 {
+            margin-top: 0;
+            color: #374151;
+        }
+        .model-info p {
+            margin: 4px 0;
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Ronen Edge LLM Test</h1>
+        
+        <div id="status" class="status loading">
+            🔄 Loading edge LLM model...
+        </div>
+
+        <div class="model-info">
+            <h3>Model Information</h3>
+            <p><strong>Model:</strong> <span id="model-name">Loading...</span></p>
+            <p><strong>Size:</strong> <span id="model-size">Loading...</span></p>
+            <p><strong>Status:</strong> <span id="model-status">Loading...</span></p>
+        </div>
+
+        <div class="form-group">
+            <label for="test-field">Test Smart Field</label>
+            <div class="field-container">
+                <input type="text" id="test-field" placeholder="Type something and double-click or hover for 3 seconds...">
+            </div>
+            <div class="info">
+                This field uses the embedded edge LLM for intelligent suggestions. Try typing some text and then double-click or hover to see AI-powered suggestions!
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="prompt-test">Prompt Test</label>
+            <div class="field-container">
+                <textarea id="prompt-test" rows="3" placeholder="Try prompts like: 'email addresses', 'phone numbers', 'names starting with J'..."></textarea>
+            </div>
+            <div class="info">
+                Test the edge LLM with different prompts to see how it generates contextual suggestions.
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="history-display">Memory History</label>
+            <div class="field-container">
+                <textarea id="history-display" rows="4" readonly placeholder="Memory history will appear here..."></textarea>
+            </div>
+            <div class="info">
+                This shows all the text that has been saved to the smart field's memory.
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import { VanillaSmartField, EdgeLLMProvider } from '../dist/index.js';
+
+        const statusEl = document.getElementById('status');
+        const modelNameEl = document.getElementById('model-name');
+        const modelSizeEl = document.getElementById('model-size');
+        const modelStatusEl = document.getElementById('model-status');
+        const testField = document.getElementById('test-field');
+        const promptTest = document.getElementById('prompt-test');
+        const historyDisplay = document.getElementById('history-display');
+
+        // Create edge LLM provider to test model loading
+        const edgeLLM = new EdgeLLMProvider();
+
+        // Update status
+        function updateStatus(message, type) {
+            statusEl.textContent = message;
+            statusEl.className = `status ${type}`;
+        }
+
+        // Update model info
+        function updateModelInfo() {
+            const info = edgeLLM.getModelInfo();
+            modelNameEl.textContent = info.name;
+            modelSizeEl.textContent = info.size;
+            modelStatusEl.textContent = info.ready ? 'Ready' : 'Loading...';
+        }
+
+        // Initialize model and update UI
+        async function initializeModel() {
+            try {
+                updateStatus('🔄 Loading edge LLM model...', 'loading');
+                updateModelInfo();
+
+                // Wait a bit for the model to start loading
+                await new Promise(resolve => setTimeout(resolve, 1000));
+                
+                // Check if model is ready
+                if (edgeLLM.isReady()) {
+                    updateStatus('✅ Edge LLM model loaded successfully!', 'ready');
+                } else {
+                    updateStatus('⏳ Edge LLM model is loading in the background...', 'loading');
+                }
+                
+                updateModelInfo();
+            } catch (error) {
+                updateStatus('❌ Failed to load edge LLM model: ' + error.message, 'error');
+                console.error('Model loading error:', error);
+            }
+        }
+
+        // Initialize smart field
+        const smartField = new VanillaSmartField({
+            element: testField,
+            config: {
+                id: 'test-field',
+                maxHistoryItems: 20,
+                enableLLM: true,
+                llmProvider: 'edge'
+            },
+            onValueChange: (value) => {
+                console.log('Field changed:', value);
+                updateHistoryDisplay();
+            },
+            onSuggestions: (suggestions) => {
+                console.log('Suggestions received:', suggestions);
+            }
+        });
+
+        // Initialize prompt test field
+        const promptField = new VanillaSmartField({
+            element: promptTest,
+            config: {
+                id: 'prompt-test',
+                maxHistoryItems: 20,
+                enableLLM: true,
+                llmProvider: 'edge'
+            },
+            onValueChange: (value) => {
+                console.log('Prompt field changed:', value);
+                updateHistoryDisplay();
+            },
+            onSuggestions: (suggestions) => {
+                console.log('Prompt suggestions received:', suggestions);
+            }
+        });
+
+        // Update history display
+        function updateHistoryDisplay() {
+            const history = smartField.getHistory();
+            const promptHistory = promptField.getHistory();
+            const allHistory = [...history, ...promptHistory];
+            
+            historyDisplay.value = allHistory
+                .sort((a, b) => b.timestamp - a.timestamp)
+                .map(item => `${new Date(item.timestamp).toLocaleTimeString()}: ${item.value}`)
+                .join('\n');
+        }
+
+        // Initialize everything
+        initializeModel();
+        updateHistoryDisplay();
+
+        // Update model status periodically
+        setInterval(() => {
+            updateModelInfo();
+            if (edgeLLM.isReady() && statusEl.className.includes('loading')) {
+                updateStatus('✅ Edge LLM model loaded successfully!', 'ready');
+            }
+        }, 2000);
+
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', () => {
+            smartField.destroy();
+            promptField.destroy();
+        });
+    </script>
+</body>
+</html>
+
+
+

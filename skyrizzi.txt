@@ -1,0 +1,8 @@
+rx: P74100778438
+rx grp: OH9017541
+rxbin:601341 
+pcn: OHCP
+5224120022277946
+12/27
+cvc :924
+chia kuo

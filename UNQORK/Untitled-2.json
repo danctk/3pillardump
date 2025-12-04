@@ -1,0 +1,226 @@
+[
+    {
+        "key": "DwellingCoverage",
+        "interactionType": "field",
+        "decimalLimit": 16,
+        "decimalCharacter": "locale",
+        "validate": {},
+        "step": 2,
+        "persistent": false,
+        "type": "number",
+        "componentId": "10271c68-b3b1-435b-90ff-dad36a42b2bf",
+        "ancestors": [
+            "root",
+            "panelDisplay"
+        ],
+        "react": false,
+        "currencyCode": "USD",
+        "placeholder": "",
+        "showThousandsSeparator": true,
+        "disableAutoComplete": true,
+        "formatAsCurrency": false,
+        "disallowDecimal": true,
+        "tags": [
+            "tagFillable",
+            "tagRequired",
+            "tagCoverageField"
+        ],
+        "label": "A - Dwelling",
+        "permissions": {},
+        "watcherList": [],
+        "parentChanged": true,
+        "wasDropped": true,
+        "trigger": "ruleCheckDwellingAmt",
+        "prefix": ""
+    },
+    {
+        "active": true,
+        "key": "OtherStructureCoverage",
+        "label": "B - Other Structures",
+        "input": true,
+        "customClass": "",
+        "description": "",
+        "protected": false,
+        "persistent": false,
+        "hidden": false,
+        "disabled": false,
+        "labelProperty": "label",
+        "validate": {
+            "required": false
+        },
+        "data": {
+            "values": [],
+            "url": ""
+        },
+        "type": "basicDropdown",
+        "componentId": "9fdde7e8-e096-4be1-839f-466c764222d8",
+        "ancestors": [
+            "root",
+            "panelDisplay"
+        ],
+        "react": false,
+        "dataSource": "values",
+        "placeholder": "",
+        "tags": [
+            "tagFillable",
+            "tagRequired",
+            "tagCoverageField"
+        ],
+        "permissions": {},
+        "wasDropped": true,
+        "watcherList": [],
+        "parentChanged": true
+    },
+    {
+        "active": true,
+        "key": "PersonalPropertyCoverage",
+        "label": "C - Content",
+        "input": true,
+        "customClass": "",
+        "description": "",
+        "protected": false,
+        "persistent": false,
+        "hidden": false,
+        "disabled": false,
+        "labelProperty": "label",
+        "validate": {
+            "required": false
+        },
+        "data": {
+            "values": [],
+            "url": ""
+        },
+        "type": "basicDropdown",
+        "componentId": "f23672e5-ab42-4474-86ec-bc67efbb897c",
+        "ancestors": [
+            "root",
+            "panelDisplay"
+        ],
+        "react": false,
+        "dataSource": "values",
+        "placeholder": "",
+        "tags": [
+            "tagFillable",
+            "tagRequired",
+            "tagCoverageField"
+        ],
+        "permissions": {},
+        "wasDropped": true,
+        "watcherList": [],
+        "parentChanged": true
+    },
+    {
+        "active": true,
+        "key": "LossOfUseCoverage",
+        "label": "D - Loss Of Use",
+        "input": true,
+        "customClass": "",
+        "description": "",
+        "protected": false,
+        "persistent": false,
+        "hidden": false,
+        "disabled": false,
+        "labelProperty": "label",
+        "validate": {
+            "required": false
+        },
+        "data": {
+            "values": [],
+            "url": ""
+        },
+        "type": "basicDropdown",
+        "componentId": "cb9ec896-afe8-4e6c-a38f-42f009c1e886",
+        "ancestors": [
+            "root",
+            "panelDisplay"
+        ],
+        "react": false,
+        "dataSource": "values",
+        "placeholder": "",
+        "tags": [
+            "tagFillable",
+            "tagRequired",
+            "tagCoverageField"
+        ],
+        "permissions": {},
+        "wasDropped": true,
+        "watcherList": [],
+        "parentChanged": true
+    },
+    {
+        "active": true,
+        "key": "PersonalLiabilityCoverageL",
+        "label": "E - Personal Liability",
+        "input": true,
+        "customClass": "",
+        "description": "",
+        "protected": false,
+        "persistent": false,
+        "hidden": false,
+        "disabled": false,
+        "labelProperty": "label",
+        "validate": {
+            "required": false
+        },
+        "data": {
+            "values": [],
+            "url": ""
+        },
+        "type": "basicDropdown",
+        "componentId": "f5833b5e-aecd-4f1c-84bc-a2c509a6e3c8",
+        "ancestors": [
+            "root",
+            "panelDisplay"
+        ],
+        "react": false,
+        "dataSource": "values",
+        "placeholder": "",
+        "tags": [
+            "tagFillable",
+            "tagRequired",
+            "tagCoverageField"
+        ],
+        "permissions": {},
+        "wasDropped": true,
+        "watcherList": [],
+        "parentChanged": true
+    },
+    {
+        "active": true,
+        "key": "MedicalPaymentsCoverageM",
+        "label": "F - Medical Payments",
+        "input": true,
+        "customClass": "",
+        "description": "",
+        "protected": false,
+        "persistent": false,
+        "hidden": false,
+        "disabled": false,
+        "labelProperty": "label",
+        "validate": {
+            "required": false
+        },
+        "data": {
+            "values": [],
+            "url": ""
+        },
+        "type": "basicDropdown",
+        "componentId": "1c93a8eb-92b6-4a80-9c2e-4845c3c1d234",
+        "ancestors": [
+            "root",
+            "panelDisplay"
+        ],
+        "react": false,
+        "dataSource": "values",
+        "placeholder": "",
+        "tags": [
+            "tagFillable",
+            "tagRequired",
+            "tagCoverageField"
+        ],
+        "permissions": {},
+        "wasDropped": true,
+        "watcherList": [],
+        "parentChanged": true
+    }
+]

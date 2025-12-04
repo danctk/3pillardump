@@ -1,0 +1,530 @@
+
+--- Page 1 ---
+
+10/30/25, 7:38 PM DevOps & Releases - Overview
+
+DevOps & Releases
+
+Last updated by | Daniels, Steve | Sep 30, 2025 at 8:51 PM GMT+5:30
+
+Contents
++ Controls
++ Change Control Process
++ Deployment Pipeline Controls
+
++ Pull Request Controls
+
++ Pipelines
++ Vulnerability Scanning (Dependabot)
+* Quality Checks
+* Scheduled Health & E2E Tests
++ Deployment pipelines
++ Release processes
++ iHub Release Process
+
++ MEA Release Process
+
++ Pricing APIs (Dataiku) Release Process
++ Python APIs Release Process
+
++ Referrals Release Process
+
++ Q Web App / API Release Process
+
++ Workbench Release Process
+
++ ODS Release Process
+
+Controls
+
+Change Control Process
+e IQUW IT Change Management Policy v3.6.docx
+
+Deployment Pipeline Controls
+
+All deployment pipelines must implement the following controls:
+
+© Prior to deploying to any environment the app must check:
+© Build successfully
+
+© All Tests pass
+© All Linting pass
+© All Code scanning checks pass
+¢ Deployment to non-production environments must be approved by at least one engineer
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3218/DevOps-Releases 1/10
+
+
+--- Page 2 ---
+
+10/30/25, 7:38 PM DevOps & Releases - Overview
+
+¢ Deployment to pre-production/production environments cannot be approved by the user who initiated the
+
+deployment
+
+e Deployments to production require cross team approval (i.e. Tester + Developer + Platform) with at least 1
+
+approval from a minimum of 2 teams
+
+Pull Request Controls
+
+All code repositories must implement the following controls
+
+© All changes to any main branch must be made via a Pull Request
+
+e Pull Request cannot be merged unless peer reviewed by at least one other engineer
+
+e Pull Requests cannot be merged until all Security & Testing checks pass
+
+© Pull Requests cannot be merged if any outstanding comments or discussions made on a given Pull Request
+
+have been resolved
+e Pull Requests must have a work item linked
+¢ All changes must meet the relevant Coding Standards
+
+[#58031] Policy Admin API V2 - Transition Policy Section, Declined
+EERE 2522. sani. sonny proposes to merge feature/S8031-polic-tramsiton-decined © into main All comments resohed
+
+‘Overview Files Updates Commits Conflicts
+
+Daniels, Steve completed this pull request CCherry-pick Revert
+
+Merged PR 8633: * [#58031] Policy Admin API V2 - Transition Policy Section, Declined
+
+a12074e OB seu =
+show deta
+
+© Mise crete succeded
+0 succeed
+
+jen dchecs ©
+© 2 reviewers approved
+
+@ Nomerse confiss
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3218/DevOps-Releases
+
+°
+@@E
+
+Reviewers dé ©
+
+© @ Wmssion Hub
+
+0 @ mish sine
+
+0 @ frees
+
+© @ Beennow
+
+Tags +
+
+20
+
+
+--- Page 3 ---
+
+10/30/25, 7:38 PM DevOps & Releases - Overview
+
+Checks x
+
+The displayed list of checks may be truncated for optimal
+performance. For a smoother experience, please maintain a
+reasonable number of policies (fewer than 100).
+
+Required
+
+Cv) policy-admin-service PR @
+Build succeeded
+
+Work items must be linked @
+Succeeded
+
+Optional
+
+© [Policy Admin Service (v1)] Quality Gate passed
+Succeeded
+
+© [Policy Admin Service (v2)] Quality Gate passed
+Succeeded
+
+iy) Comments must be resolved
+Succeeded
+
+Pipelines
+We use Azure DevOps pipelines to handle releases and other automated tasks such as PR requests or health
+checks
+
+Vulnerability Scanning (Dependabot)
+See: Dependabot Pipelines
+
+Work items:
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3218/DevOps-Releases 3/10
+
+
+--- Page 4 ---
+
+10/30/25, 7:38 PM DevOps & Releases - Overview
+e 48313 Vulnerabilities scanning (iHub) Done
+° 70762 Vulnerabilities Scanning (Python) Done
+
+. 67525 Vulnerabilities Scanning (Azure Functions) Done
+
+| 70763 Vulnerabilities Scanning (React) Done
+e 81543 Vulnerability Scanning (Dataiku) New
+
+We scan our repos for vulnerabilities using Dependabot periodically.
+
+PR are created automatically by the tool with updated packages which are trigger
+peer-reviewed by Developers.
+
+< Jobs in run #20250... % Dependabot
+
+Jobs
+creating pull
+
+Y @  Dependabot
+Initialize job
+Checkout user-se.
+
+GoTool
+creating pu!
+
+Dependabot 3m, 39 mine 2
+
+CR a a )
+
+Post-job: Check
+Finalize Job
+
+Report build sta.
+
+Quality Checks
+
+See:
+Work items:
+
+O 65980 Add 100% test coverage for new code to all PRs (iHub) Done
+
+69394 Add 100% test coverage for new code to all PRs (Python) Done
+
+70764 Add 100% test coverage for new code to all PRs (Azure Functions)
+
+81544 Add 100% test coverage for new code to all PRs (Dataiku) New
+
+55027 Sonar Cloud pipeline scanning (iHub) Done
+
+70759 Sonar Cloud pipeline scanning (Python) Done
+
+. 70760 Sonar Cloud pipeline scanning (Azure Functions) Done
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3218/DevOps-Releases
+
+and are then
+
+Q View raw log
+
+into ‘main®
+
+Lidato
+
+Done
+
+| 70765 Add code coverage reports and ensure 100% test coverage to all PRs (React) Done
+
+4/10
+
+
+--- Page 5 ---
+
+10/30/25, 7:38 PM DevOps & Releases - Overview
+° | 70761 Sonar Cloud pipeline scanning (React) Done
+e | B 81545 Sonar Cloud pipeline scanning (Dataiku) New
+e | 70767 Automated tests for React Apps (unit/integration test) Done
+
+We check the code of our repos before and after merging PRs.
+Quality checks include:
+
+¢ Linting
+
+© Building
+
+© Unit Testing
+
+¢ BDD Testing
+
+© Code Coverage
+
+© Code Scanning (SonarCloud)
+¢ Terraform Coding Testing
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3218/DevOps-Releases 5/10
+
+
+--- Page 6 ---
+
+10/30/25, 7:38 PM DevOps & Releases - Overview
+
+< Jobs in run #20250530.8 ¥) Finalize Job
+
+Quality Chec
+
+Quality Checks : Finalize Job
+
+Cleaning up task key
+
+Start cleaning up orphan processes.
+
+vy oa 49s Finishing: Finalize Job
+Initialize job
+Checkout ihub-service@refs/pull/... 1s
+UseNode <1s
+Audit production dependencies 13s
+Install dependencies 13s
+Linting 3s
+Build 16s
+Post-job: Checkout ihub-service.. <1s
+Finalize Job <1s
+> Unit Tests 29s
+> @ > BDD Acceptance tests 28s
+> SonarQube
+
+PR Terraform Check
+
+> Plan to dev 58s
+
+Finalize build
+
+Report build status <1s
+
+Scheduled Health & E2E Tests
+See: Scheduled Health & E2E Test Pipelines
+
+Work items:
+
+O 70862 API Healthchecks (iHub Endpoints) Done
+. 61700 API Healthchecks (Dataiku Pricing Endpoints) Done
+O 70861 API Healthchecks (Python Endpoints) Done
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3218/DevOps-Releases 6/10
+
+
+--- Page 7 ---
+
+10/30/25, 7:38 PM DevOps & Releases - Overview
+We periodically run checks on our systems to ensure that they are working as expected.
+
+Scheduled Health & E2E Checks include:
+¢ Calling health endpoints on our APIs
+
+e Running automated E2E tests on our front end applications
+
+Deployment pipelines
+See: Deployment Pipelines (iHub/Python/MEA),
+
+Work items:
+© TBC
+We have a diverse tech stack at 1856, with a variety of in-house and SaaS/laaS applications.
+
+Deployments for our internal applications and APIs are handled independently and co-ordinated across teams.
+Release processes
+
+iHub Release Process
+iHub (Integration Hub) is deployed as follows:
+
+1. Create a Semantic Versioning tag in the format vmajor.MINOR.PATCH where major is APIM API version (i.e.
+v1.2.1), on the main branch for a given microservice
+
+2. A deployment pipeline will be triggered (see: Deployment Pipelines (iHub/Python/MEA))
+
+3. All checks will need to pass and the deployment will need to be approved to be progressed to dev/test
+environments
+
+4. Any deployment to production environments needs approval and have further checks (see: Change Control
+Process & Deployment Pipeline Controls)
+
+MEA Release Process
+
+Mea - Overview is deployed as follows:
+
+1. Trigger deployment for Pipelines - Runs for mea-ingestion Deploy and/or Pipelines - Runs for mea-
+processing Deploy as required
+
+2. All checks will need to pass and the deployment will need to be approved to be progressed to dev/test
+environments
+
+3. Any deployment to production environments needs approval and have further checks (see: Change Control
+Process & Deployment Pipeline Controls)
+
+Pricing APIs (Dataiku) Release Process
+For the Dataiku Pricing API:
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3218/DevOps-Releases 7/0
+
+
+--- Page 8 ---
+
+10/30/25, 7:38 PM DevOps & Releases - Overview
+© All merges to main for a given Pricing API repo will deploy to the dev environment (for Dataiku Devs only)
+
+To proceed to deploy to higher environment that proxied via iHub's Dataiku Gateway - Overview:
+
+1. Trigger Dataiku Service Deployment Pipeline
+
+2. All checks will need to pass and the deployment will need to be approved to be progressed to dev/test
+environments
+
+3. Any deployment to production environments needs approval and have further checks (see: Change Control
+Process & Deployment Pipeline Controls)
+
+See Dataiku Pipelines - Overview for more details
+
+Python APIs Release Process
+1. Create a Semantic Versioning tag in the format vMAJOR.MINOR.PATCH where mAJoR is APIM API version (i.e.
+v1.2.1), on the main branch for a given Python App built using the Python Starter Kit - Overview
+2. A deployment pipeline will be triggered (see: Deployment Pipelines (iHub/Python/MEA))
+3. All checks will need to pass and the deployment will need to be approved to be progressed to dev/test
+environments
+
+4. Any deployment to production environments needs approval and have further checks (see: Change Control
+Process & Deployment Pipeline Controls)
+
+Referrals Release Process
+
+e Referrals code changes follow Dataiku Release Process
+e Referrals dataset changes are released using the following procedure:
+
+1. Non-prod releases
+o Releases to Dev and Staging envs are described here
+2. Production releases
+1. In Azure navigate to Storage browser -> Subscription: service Model NonProd -> Account:
+stpricingdluksouthdev -> Blob container: uwauthority (Make sure your ZScaler connection is
+authenticated).
+2. Go into the target environment folder (PreProd or Prod), select the master
+underwriting_matrix_processed.parquet file and create a backup, by clicking on the ... menu and
+choosing the clone option. Backups are identified by a suffix containing a timestamp in the -yy-mm-
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3218/DevOps-Releases 8/10
+
+
+--- Page 9 ---
+
+10/30/25, 7:38 PM DevOps & Releases - Overview
+DD-HHmmss format in UTC time.
+
+1B Blob containers > {f§ uwauthority > ll Prod
+
+‘Authentication method: Microsoft Entra user account (Switch to Access key)
+
+[2 Search bobs pref eases) | [lontyshow active objects =
+
+‘Showing all 12 items
+
+(Name Last modified Access tie Bod type size Lease state
+O mu
+
+= Properties
+Cl mos 2/27/2025, 409:10 MA
+
+2 Niewjedit
+[F1__ Di underwriting. matrix processed-2025-01-23-150700parquet 1/8/2025, 45742 PM. Hot (inferred) Block blob 25.66 KiB
+
+"=D Rename
+CED envderrting matin processed-2005-02-19-12400perqut 1/28/2005,519351 9M Hot fered) ied ~~
+[F1__D underwriting matrix processed-2025-02-27-150700parquet _2/19/2025,335:26PM Hat (inferred) Block blob 2015 xe © clone
+[C1 Di underwriting matrix processed-2025-04-16-031200parquet_ 2/27/2025, 40848 PM Hot (inferred) Block blob 2oa7 Kip © Copy URL
+[F__ Di underwriting. matrix processed-2025-04-30-111300parquet 4/16/2025, 2:11:37 PM Hot (inferred) Block blob 20698 4 Download
+[CD underwriting. matric processed-2025-05-13-140700parquet 5/13/2025, 307:10PM Hot (inferred) Block blob 2069KiB = change tier
+(F1__ underwriting. matrix processed-2025-06-05-150400parquet 6/5/2025, 4:04:45 PM Hot (inferred) Block blob 2101 KiB @ Generate SAS
+(1 Di undermniting. matrix processed-2025-06-10-140500 parquet 6/10/2025,3:0530 PM Hot (nferec) Block blob 2102 KB 6 syanage ACL
+[F1__ Di underwriting matrix processed-2025-07-09-141700parquet 7/9/2025, 3:17:44 PM. Hot (inferred) Block blob 2130 1g peauire lease
+[FD underwriting matrix processed-roliback-2025-04-30-113000.... 4/30/2025, 121348 PM Hot (inferred) Block blob 209948
+
+Delete
+
+EAD anderwriting matrix processed parquet 7/9/2025, 31801 PM_——_Hot (nferec) Block blob 221 Kia avo
+
+3. Go back to uwauthority blob storage and click into one environment lower (Staging -> PreProd,
+PreProd -> Prod). Make sure the lower environment has been deployed previously. Select the master
+underwriting_matrix_processed.parquet file and click the Copy button in the top bar.
+
++ Add Directory F Upload C) Rettesh | [i] Delete [} Copy [fj raste mb Rename S Acquire lease <9 sroakleace EB edit columns
+
+1B Blob containers > Hl uwauthority > I Preprod
+
+‘Authentication method: Microsoft Entra user account (Switch to Access key)
+
+(ear ot ata am | [oni shew acive objects z
+
+‘Showing all 14 items
+
+C1 Name Last modified ‘Access et Blob type size Leste state
+O mu
+
+ me0 2/26/2025, 51833 PM
+
+EZ underiting matic processed parquet 7/2/2025,30806 9M —_ Hot (inered) Block blob nike svalable
+[EZ Di underwriting. matrix processed 2025-01-17-125900parquet 12/18/2024, 2:43:51 PM_—_-Hot (inferred) Block blob 25.66 KiB ‘Available
+(C1 Di uneenwiting matrix processed 2025-01-21-170000 parquet 1/17/2025, 159209M Hot (fered) Block blob 2099 available
+(1 Di unenwiting matrix processed 2025-02-11-175600 parquet 1/21/2025, 6:00179M Hot (fered) Block blob 2011 KB available
+
+4. Once again go into the target environment folder and click the paste button in the top bar. When
+prompted, select Replace from the pop up dialog. The updated master file will by automatically
+picked up by the API code.
+
+Copy blob conflict
+
+‘A blob named with the name ‘underwriting_matrix processed parquet already exists atthe destination. How would you like to resolve the conflict?”
+
+| seoice CT
+
+‘Shing aN TEAS
+
+Notes:
+
+© Code for release automation exists in several shapes and forms, but is not used for Prod releases due to
+authorization concerns, since the solution relies on Dataiku functionality, and the control mechanisms are
+not ideal. It shouldn't be too hard to replace the manual procedure with a ADO pipeline, if need be.
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3218/DevOps-Releases 9/10
+
+
+--- Page 10 ---
+
+10/30/25, 7:38 PM DevOps & Releases - Overview
+Q Web App / API Release Process
+(TBC)
+
+Workbench Release Process
+
+Administrator->UDLC Toolkit-> Release Management
+
+Click-> Create New Release
+
+Version-> Enter the version of the release based on Sprint. Eg: 12.5
+
+Name-> Enter release name. Eg: "release_12.5 Prod"
+
+Notes-> This is optional.
+
+Client-> Select "ers"
+
+Environment-> Select "production"
+
+Select Workspace applications modules. Full and partial selection can be done. In very rare cases partial releases
+are done.
+
+After all selection of Workspace applications modules click on Create new Release
+From Release dashboard select newly created release.
+
+Click on Promote button.
+
+Once all the Workspace applications status turned into green,click on Finish button.
+
+More information on Release Managment can be read here
+
+ODS Release Process
+(TBC)
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3218/DevOps-Releases 10/10

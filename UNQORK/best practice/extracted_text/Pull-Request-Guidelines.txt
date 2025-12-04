@@ -1,0 +1,138 @@
+
+--- Page 1 ---
+
+10/30/25, 7:37 PM Pull Request Guidelines - Overview
+
+Pull Request Guidelines
+
+Last updated by | Daniels, Steve | Oct 13, 2025 at 5:50 PM GMT+5:30
+
+Contents
+* Overview
+
++ Project Specific guidelines
++ Naming Pull requests
+
++ QA Steps
+
++ Documentation
+
++ Merging
++ Ticket Controls
++ Automated controls
++ SLA
+* ® Commen idan
++ ‘| IQUW Bot Comments
+. SonarQube Cloud
++ ds_Copilot (TBA)
++ > Comment Decorators
+
+Overview
+Project Specific guidelines
+
+Child Pages
+
+Naming Pull requests
+e Pull Request must have the relevant PBI Number (i.e. #12344567 in the title)
+
+QA Steps
+
+e All Pull Requests should include QA steps (i.e. curl, or steps to test functionality) where possible
+
+Documentation
+
+© All Pull Requests should include link to relevant documentation for review
+Merging
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3478/Pull-Request-Guidelines 113
+
+
+--- Page 2 ---
+
+10/30/25, 7:37 PM Pull Request Guidelines - Overview
+
+The original requestor (i.e. the developer who opened the PR) should complete the PR.
+The merge type should be set to "Merge (no fast forward)"
+
+Ticket Controls
+
+e Must have Pull request linked at a PBI level
+
+Automated controls
+
+PRs follow the following controls: Pull Request Controls
+
+SLA
+
+PRs should be merged within 2 working days of published so long as the Pull Request Controls have been met.
+
+> Comment Guidance
+
+Developers are encouraged to comment on pull requests made by others as appropriate. This doesn't have to
+be if something seems off, but to ask question about implementations, to make suggestions on alternative
+approaches, or to offer praise for particular work.
+
+In general, the original commentor should resolve the comment, not the PR author.
+
+‘©! IQUW Bot Comments
+
+Various forms of automated tooling may comment on a pull request as the @<43B1DAD8-C116-6FDD-807B-
+SOCEF6F8BE6C> account. Usually, these comments should be addressed before a pull request is completed. In
+general, subsequent runs
+
+SonarQube Cloud
+
+These comments are made when static analysis of the code by SonarQube detects something which may affect
+the maintainability or reliability of the associated line or block.
+
+You can view more details on the issue by clicking the "See it in SonarQube Cloud" link.
+
+If you wish to disregard the comment, open it in the SonarQube UI and set it to either ‘False Positive’ or
+‘Accepted’
+
+& Copilot (TBA)
+
+» Comment Decorators
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3478/Pull-Request-Guidelines 213
+
+
+--- Page 3 ---
+
+10/30/25, 7:37 PM Pull Request Guidelines - Overview
+
+When commenting on a pull request, a developer could choose to add decorators to their comment to indicate
+the type of comment being made. These provide a useful visual indicator to others who may be reading the
+comment in future. They can be added using an emoji, or in plain text.
+
+. Plain .
+Emoji Text Meaning
+g « An idea or thought that could
+. improve the commented code.
+9 - A question about a decision or
+. : approach
+x im An error or omission that must
+: be corrected.
+z Praise for something unique,
+* interesting or novel
+> -. A note for future reference.
+
+Notes
+
+The comment will often include a suggestion
+code block.
+
+Usually, this should be accompanied by the
+commentor marking the PR as ‘Waiting for
+author’
+
+Generally, PR's should not be merged with
+
+unresolved comments of this type
+
+May link to documentation or a follow-up Work
+Item
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3478/Pull-Request-Guidelines
+
+3/3

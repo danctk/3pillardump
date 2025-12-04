@@ -1,0 +1,24 @@
+
+--- Page 1 ---
+
+10/30/25, 7:41 PM React JS library - Overview
+
+React JS library
+
+Last updated by | Perez Martinez, Sheila | Oct 2, 2025 at 3:56 PM GMT+5:30
+
+React Specific Best Practices
+
+We must follow all ‘Front end Standards' described at Front End Development
+
+Child Pages
++ Naming conventions
++ State management & Hooks
+* Component Composition
++ Type of components
++ DRY and SOLID principles
++ JS Appendix
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3200/React-JS-library
+
+4

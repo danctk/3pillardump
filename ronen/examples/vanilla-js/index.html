@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronen - Vanilla JS Example</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9fafb;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #1f2937;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #374151;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+        .description {
+            background: #eff6ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #3b82f6;
+        }
+        .description h3 {
+            margin-top: 0;
+            color: #1e40af;
+        }
+        .description p {
+            margin-bottom: 0;
+            color: #1e3a8a;
+        }
+        .field-container {
+            position: relative;
+        }
+        .info {
+            font-size: 14px;
+            color: #6b7280;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Ronen Smart Fields</h1>
+        
+        <div class="description">
+            <h3>How it works:</h3>
+            <p>These fields remember everything you type and can retrieve past data. Try double-clicking or hovering for 3 seconds to see smart suggestions!</p>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <div class="field-container">
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="info">Double-click or hover to retrieve previous names</div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <div class="field-container">
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="info">Smart field will remember all email addresses you've entered</div>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <div class="field-container">
+                    <input type="tel" id="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="info">Try typing "work" or "home" in the prompt search</div>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <div class="field-container">
+                    <textarea id="address" rows="3" placeholder="Enter your address"></textarea>
+                </div>
+                <div class="info">Multiline smart field with memory</div>
+            </div>
+
+            <div class="form-group">
+                <label for="notes">Notes</label>
+                <div class="field-container">
+                    <textarea id="notes" rows="4" placeholder="Add some notes..."></textarea>
+                </div>
+                <div class="info">Try entering different types of notes and see how the smart field learns</div>
+            </div>
+        </form>
+    </div>
+
+    <script type="module">
+        import { VanillaSmartField } from '../../dist/index.js';
+
+        // Initialize smart fields for each input
+        const fields = [
+            { id: 'name', element: document.getElementById('name') },
+            { id: 'email', element: document.getElementById('email') },
+            { id: 'phone', element: document.getElementById('phone') },
+            { id: 'address', element: document.getElementById('address') },
+            { id: 'notes', element: document.getElementById('notes') }
+        ];
+
+        const smartFields = fields.map(({ id, element }) => {
+            return new VanillaSmartField({
+                element,
+                config: {
+                    id,
+                    maxHistoryItems: 20,
+                    enableLLM: true,
+                    llmProvider: 'edge'
+                },
+                onValueChange: (value) => {
+                    console.log(`${id} changed:`, value);
+                },
+                onSuggestions: (suggestions) => {
+                    console.log(`${id} suggestions:`, suggestions);
+                }
+            });
+        });
+
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', () => {
+            smartFields.forEach(field => field.destroy());
+        });
+    </script>
+</body>
+</html>

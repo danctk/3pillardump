@@ -1,0 +1,281 @@
+
+--- Page 1 ---
+
+10/30/25, 7:39 PM Security & Testing - Overview
+
+Security & Testing
+
+Last updated by | Daniels, Steve | Oct 23, 2025 at 6:53 PM GMT+5:30
+
+Contents
++ SAST (Static Application Security Testing)
++ Sonarcloud
+
++ Dependabot
++ Snyk
++ DAST (Dynamic Application Security Testing)
+
++ Automated Testing
+
+“Ul
+
++ API / Functions
+
++ Automated Pentesting
++ Manual End User Testing
+
+SAST (Static Application Security Testing)
+
+Sonarcloud
+
+Work items:
+
+. | i 55027 Sonar Cloud pipeline scanning (iHub) Done
+
+. | E 70759 Sonar Cloud pipeline scanning (Python) Done
+
+. | 70761 Sonar Cloud pipeline scanning (React) Done
+
+. | B 70760 Sonar Cloud pipeline scanning (Azure Functions) Done
+. | Ei 85128 Sonar Cloud pipeline scanning (Q FE / API) Done
+
+We use SonarCloud to scan source code during development and this is checked during Pull Requests at iHub
+
+e Projects - iquw1856 organization - SonarQube Cloud
+
+iHub Si emplate Private
+
+Last analysis: 13/05/2025, 15:00 - 465 Lines of Code - TypeScript
+
+ao Q1 a5 E 0.0% O 100% 0.0%
+Security Reliability Maintainability Hotspots Reviewed Coverage Duplications
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3212/Security-Testing
+
+[By Not computed
+
+115
+
+
+--- Page 2 ---
+
+10/30/25, 7:39 PM Security & Testing - Overview
+
+Stages Jobs
+
+© Quality Checks (V1)
+
+4 jobs completed 2m 41s
+
+& 100% tests passed
+© 1 artifact
+
+© PR Terraform Check
+1 job completed 1m 20s
+
+© 1 artifact
+
+Dependabot
+
+Work items:
+
+e | & 48313 Vulnerabilities scanning (iHub) Done
+| & 70762 Vulnerabilities Scanning (Python) Done
+| 70763 Vulnerabilities Scanning (React) Done
+
+| i 67525 Vulnerabilities Scanning (Azure Functions) Done
+
+| i 81543 Vulnerability Scanning (Dataiku) New
+
+We use Dependabot to scan source code for vulnerabilities
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3212/Security-Testing
+
+2/5
+
+
+--- Page 3 ---
+
+10/30/25, 7:39 PM
+
+< Jobs in run #20250515.1
+
+Jobs
+Y  @ Dependabot
+
+Initialize job
+
+Checkout sanctions-service@tooli
+GoToo!
+
+Dependabot
+
+eeoo$so
+
+Post-job: Checkout sanctions-ser
+Finalize Job
+
+Report build status
+
+erviceMoc
+
+ServiceMod
+
+ServiceModel
+
+Snyk
+
+© Dependabot [#68345]:
+
+| Build Se:
+
+© Dependabot [#68345]:
+
+© Dependabot [#68345]:
+
+© Dependabot [#68345
+
+© Dependabot [#68345]:
+
+© Dependabot [#68345]:
+
+ServiceModel Bu
+
+© Dependabot [#68345]:
+
+vice (iquw18
+
+@ Dependabot
+
+Ds
+
+ice (iquw1é
+
+vice (iquw Jevops
+
+ice (iq
+
+Security & Testing - Overview
+
+ath nocache from 3.0.4 to 4.0.0 in /app
+
++t 19502 into 8 main
+
+nto & main
+
+Bump helmet from &! 0.1 to 8.1.0 in /app
+
+oni eppressit ~ ae poneenreent in /app
+
+: Bump . ese from 2.3.6 to 3.7.0 in /app
+
+9s) request !9499 into © main
+
+Bump the development-minor group in /app with 6 updates
+
+s) request !9498 inte main
+
+Bump the Gevelgpment: major group in /app with 11 updates
+
+s) request !9496 into main
+
+e | Ei 83536 Add Snyk Security scanning (Azure Functions) New
+
+e | Ei 83534 Add Snyk Security scanning (Dataiku)
+
+New
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3212/Security-Testing 3/5
+
+
+--- Page 4 ---
+
+10/30/25, 7:39 PM Security & Testing - Overview
+° | Bi 83530 Add Snyk Security scanning (iHub) In Technical Analysis
+° | Bi 83532 Add Snyk Security scanning (Python) New
+. | B 83538 Add Snyk Security scanning (Q FE / API) New
+
+DAST (Dynamic Application Security Testing)
+Automated Testing
+
+Ul
+Automated UI tests (i.e. Unit testing, snapshot testing, etc) are not currently implemented but are planned as
+upcoming feature:
+
+Work Items:
+
+° | 70767 Automated tests for React Apps (unit/integration test) Done
+
+e | 70765 Add code coverage reports and ensure 100% test coverage to all PRs (React) Done
+O | 85129 Automated tests for Q FE / API Apps (unit/integration test) To Do
+
+O | Ei 85131 Add 100% test coverage for new code to all PRs (Q FE) New
+
+API / Functions
+Work Items:
+
+° | Bi 65980 Add 100% test coverage for new code to all PRs (iHub) Done
+
+| Ei 69394 Add 100% test coverage for new code to all PRs (Python) Done
+
+| EB 70764 Add 100% test coverage for new code to all PRs (Azure Functions) Done
+
+| Bi 81544 Add 100% test coverage for new code to all PRs (Dataiku) New
+
+| Ei 85130 Add 100% test coverage for new code to all PRs (Q API) New
+We ensure unit and integration tests for our APIs:
+
+Summary Tests Extensions Terraform Plan Code Coverage
+
+Summary
+
+2 Run(s) Completed ( 2 Passed, 0 Failed )
+
+87 7 @rset 100%  185133ms 0
+
+0 @ Failed
+
+a7 to) Others * 100%  +18s 133ms
+
+Total tests Pass percentage Run duration © Tests not reported
+
+Automated Pentesting
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/3212/Security-Testing
+
+4/5
+
+
+--- Page 5 ---
+
+10/30/25, 7:39 PM Security & Testing - Overview
+We are exploring automated pen testing with Snyk
+
+Manual End User Testing
+
+Our test plans are stored here:
+Test plans - Test Plans
+Manual UAT is carried out:
+
+¢ Prior to any production release
+¢ Post any production release
+
+Testing Process
+
+e Requirements received in the form of ADO Product Backlog Items, once allocated to a sprint
+
+e Tests scripted based on the acceptance criteria within the Product Backlog Items
+
+e Tests executed on the front end of the application — taking applicable screenshots using the facility in ADO,
+or evidence of steps and outcomes
+
+e If test is successful, ADO test is marked as Pass
+
+e If test is unsuccessful, ADO test is marked as Fail, and a linked bug is raised from the test
+
+e Ifa test is unable to be executed, it is marked as Blocked
+
+e Ifatest becomes out of scope, it is marked as Not Applicable
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wikilwikis/IQUW Service Model/3212/Security-Testing
+
+5/5

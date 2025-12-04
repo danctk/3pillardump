@@ -1,0 +1,59 @@
+{
+    "Account": {
+        "Insured": [
+            {
+                "Location": [
+                    {
+                        "ID": "96bd811a-cb2e-4f31-94fe-f74812c47e0a",
+                        "Building": [
+                            {
+                                "Coverage": [
+                                    {
+                                        "DwellingCoverage": "1386000",
+                                        "WindCoverage": "Yes",
+                                        "OtherStructureCoverage": "2",
+                                        "PersonalPropertyCoverage": "25",
+                                        "LossOfUseCoverage": "10",
+                                        "PersonalLiabilityCoverageL": "100000",
+                                        "MedicalPaymentsCoverageM": "1000",
+                                        "PolicyformOption": "RCV",
+                                        "RoofingSystemsLimit": "30000"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "ID": "f40eaa79-867a-4de5-b2e5-2c9ea4450a32"
+            }
+        ]
+    },
+    "CarrierID": "755",
+    "EventName": "GetCoverageLimitsAndRates_WF_1.0.2.0",
+    "PolicyEffectiveDate": "10/17/2025",
+    "PolicyExpirationDate": "10/17/2026",
+    "QuoteType": "New Business",
+    "ServiceRequestDetail": {
+        "OwnerId": "4742",
+        "EndClientUserUniqueSessionId": "1.0",
+        "ServiceRequestVersion": "1.0",
+        "LanguageCode": "en",
+        "UserName": "chenoaqaagent@test.com",
+        "RegionCode": "US",
+        "ServiceResponseVersion": "1.0",
+        "ResponseType": "json",
+        "Token": "jhsBPvvVweZUuPuqFONyPqDxPAYWtMp5HeM6zIE/2K25lDjJrvyEulrsByN7ISQ1L5XcsIm3Yt4N2cpK5O+CmYznG+W4k9PzgRb2HiedqxhRNpYFDYB1RoIpzydGn05M+tEiKKao5YkFn3fXOQQC7/2XkpzhnoY+emI+oEP3TxoFUBmaApj6v2sPxAGv817beJra0+q6PNrk+kxQIdFKHmcZjaQAhVWoibRLqbfgADef6wz+ZSzYrG8yb2bjJ0TIckreMKTMYFXD5za/SH9z8jRCohN9nRJZkTXcKJEMzJIzNRULkpmyKxTXUkiItf4+3vzuoepKXt2wYJGFtpJlHqjOfw/QIFoqK0MPXrwxUmJOPYs7lYWViVDkjdnKa6eNY4+fJkOkQn0fpyPKoENQqjW9tDR7f31ke+x6Q+IWLuz7LDzDyjjDJucNmads1JSwU136vzWMszsi0AHXK1q3pY2o+xD+VD3Wp5/DiVVG6uh7CO0D5GV08MYRyFvbDfC2X2NFoEOHMHs7Ap35pHQ8jrU6/YLLm2Qwyt5WgCVdwdki2DbC/kHNkugiLi4AfolerSAC3LCCyuPrDKfZ2VRfB1NHdoNFglpJaPSajX4Q+q7U2Fu9tYImaiw+pfsgEr4E2817spRGN3mMeg2cS/51Z+QVf7myxzHQPEeAjihnBnVIlRU/+Rqd8irK0T6uSrTBVm0rjUbcssHchYHERNWHHrrRUpKGIZQ8WSnv5OgPaBKM5li99LWITA1wWQADZDej97zzyeAVLkhX1z0iaxyhyhrt83/iKqkncU1Q/0UEAGE+5XCkhoo5t3POYpFOjnr09X8Nt+eKyhxGJzS/ctY9YE7lVzz3kdfGJcMwvVqw+Lj6ExaRbL6s+AV171RonvPE3Tfnku7hykRyCsilLpN/+js2vtlHs7JyCormEyBOIebtHey9vUYOYrdghC/Jlye7gEYO95PqntIImyauByJPimymQSjTdg//OQ4cVvEGZ+DDCVLThu7oCEImP4WZmQcL<TRUNCATED>",
+        "Lob": "PL",
+        "BrowserIp": "192.158.1.38.",
+        "UserRole": "Agent"
+    },
+    "SubmissionID": "d97e4743-6d55-4707-a4c3-f5439507597d",
+    "SubLineID": "10",
+    "MarketType": "Proprietary",
+    "RateLookupDate": "10/17/2025",
+    "ProductVerNumber": "PL_4742_12_V1",
+    "ProductNumber": "PL_4742_12",
+    "SublineName": "Builders_Risk",
+    "CarrierName": "Transverse",
+    "OwnerId": "4742"
+}

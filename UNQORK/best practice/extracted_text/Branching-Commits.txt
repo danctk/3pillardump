@@ -1,0 +1,113 @@
+
+--- Page 1 ---
+
+10/30/25, 7:36 PM Branching & Commits - Overview
+
+Branching & Commits
+
+Last updated by | Daniels, Steve | Sep 8, 2025 at 2:08 PM GMT+5:30
+
+Contents
++ Git strategy
++ Commit style
++ Branching strategy
+
++ Feature branches
++ Bugfix branches
++ Parallel delivery with independent release
+
++ Merging Strategy,
+
+Git strategy
+
+We follow releaseflow ~~> strategy
+Commit style
+
+Commits must be in the following format:
+#<ADO Work Item number> brief-description
+ie.
+
+#1234 Brief description of the app
+
+Branching strategy
+
+All branches must be from main and merge to main (excluding release branches see: Parallel delivery with
+independent release
+
+Feature branches
+
+Development is done using feature branches typically following a naming convention of one of the following
+formats
+
+feature/#<ADO Work Item number>-brief-description-separated-by-dashes
+ie feature/#1234-some-description
+
+OR
+
+feature/#<ADO Work Item number>
+
+ie feature/#1234
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/1798/Branching-Commits?anchor=feature-branches 1/3
+
+
+--- Page 2 ---
+
+10/30/25, 7:36 PM Branching & Commits - Overview
+Bugfix branches
+
+Bugfix branches must be in on of the following formats
+
+bugfix/#<ADO Work Item number>-brief-description-separated-by-dashes
+
+ie.
+
+bugfix/#1234-some-description
+
+OR
+
+bugfix/#<ADO Work Item number>
+
+ie bugfix/#1234
+
+Parallel delivery with independent release
+
+If we need to support parallel where we need to hold back work from a release:
+1. Create a release/<project-name> branch from main
+
+2. Create PRs from release/<project-name> (see Feature branches
+& Bugfix branches)
+
+3. Merge into release/<project-name>
+
+4. When ready to release create a merge from release/<project-name> into main and release
+
+Merging Strategy
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/1798/Branching-Commits?anchor=feature-branches
+
+2/3
+
+
+--- Page 3 ---
+
+10/30/25, 7:36 PM Branching & Commits - Overview
+
+Complete pull request x
+
+Merge type
+
+Merge (no fast forward) v
+e _—
+——s
+
+Post-completion options
+
+|} Complete associated work items after merging
+@ Delete feature/#70487-ods-service-dev-ops after merging
+
+(_) Customize merge commit message
+
+https://dev.azure.com/iquw1856devops/ServiceModel/_wiki/wikis/IQUW Service Model/1798/Branching-Commits?anchor=feature-branches
+
+3/3

@@ -1,0 +1,650 @@
+{
+    "ID": "d2806601-0f5d-42da-8602-3df6c9ef35c9",
+    "Account": {
+        "ID": "da9e38ec-af6b-401e-9eab-8148712f0ccb",
+        "Dob": "2000-11-05",
+        "AgentId": "23e2f0b1-55c8-4768-acab-6ee976b3bddd",
+        "Insured": [
+            {
+                "ID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+                "Dob": "2000-11-05",
+                "Type": "Individual",
+                "AgentId": "23e2f0b1-55c8-4768-acab-6ee976b3bddd",
+                "OwnerId": "4742",
+                "AgencyId": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                "Criminal": "false",
+                "Location": [
+                    {
+                        "ID": "f30b314d-1102-4bc0-bfc5-2a683a1ba4f0",
+                        "City": "Miami Beach",
+                        "County": "Miami-Dade",
+                        "Country": "USA",
+                        "Building": [
+                            {
+                                "ID": "14773821-a1e9-4089-94ce-6575b4c6acb8",
+                                "GridID": "257608013",
+                                "ResType": "Single Family",
+                                "Coverage": [
+                                    {
+                                        "ID": "1b8c2f36-3a84-4bfa-9b86-1cdb771dcd93",
+                                        "PARENTID": "14773821-a1e9-4089-94ce-6575b4c6acb8",
+                                        "WindCoverage": "Yes"
+                                    }
+                                ],
+                                "HVACCool": "Central Air Conditioning",
+                                "PARENTID": "f30b314d-1102-4bc0-bfc5-2a683a1ba4f0",
+                                "SquareFt": 2107,
+                                "DateBuilt": 1988,
+                                "FireAlarm": "Smoke Detectors",
+                                "Occupancy": "Primary",
+                                "RoofShape": "Gable",
+                                "Foundation": "Crawlspace",
+                                "GarageType": "6 Car (1405 - 1512 sq ft)",
+                                "TypeOfHVAC": "Forced Air Heating System",
+                                "RoofUpdated": 2020,
+                                "BurglarAlarm": "Central Monitoring",
+                                "PlumbingType": "Unknown",
+                                "RoofMaterial": "Composition - Architectural Shingle",
+                                "ExteriorSiding": "Unknown",
+                                "HeatingUpdated": 2020,
+                                "ElectricUpdated": 2020,
+                                "LaundryLocation": "Basement",
+                                "NumberOfStories": "1 Story",
+                                "PlumbingUpdated": 2020,
+                                "ProtectionClass": "1",
+                                "PurchasedAmount": "PurchasedAmount",
+                                "ConstructionType": "Concrete Block",
+                                "InteriorSprinkler": "Complete Interior",
+                                "MitigationOpenings": "No Protection",
+                                "WaterHeaterUpdated": 2020,
+                                "RoofDeckAttachments": "Unknown",
+                                "WaterHeaterLocation": "Basement",
+                                "CoastalWaterDistance": "1 - 500 feet",
+                                "RoofToWallConnection": "Unknown"
+                            }
+                        ],
+                        "Latitude": "25.7668532",
+                        "PARENTID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+                        "Zipcode1": "33139",
+                        "Longitude": "-80.1307233",
+                        "CountryCode": "US",
+                        "GeoLatitude": "25.7668532",
+                        "StateRegion": "FL",
+                        "GeoLongitude": "-80.1307233",
+                        "ThirdPartyCity": "Miami Beach",
+                        "StateRegionCode": "FL",
+                        "ThirdPartyCounty": "Somerset",
+                        "NumberOfBuildings": "1",
+                        "ThirdPartyZipcode1": "33139",
+                        "LocationFullAddress": "1 Ocean Dr, Miami Beach, FL 33139, USA",
+                        "StreetNumberAddress1": "1 Ocean Drive",
+                        "ThirdPartyFullAddress": "1 Ocean Dr, Miami Beach, FL 33139, USA"
+                    }
+                ],
+                "PARENTID": "da9e38ec-af6b-401e-9eab-8148712f0ccb",
+                "CreatedBy": "chenoaqaagent@test.com",
+                "InsuredID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+                "LastName2": "asfdsfad",
+                "OFACScore": "0",
+                "UpdatedBy": "chenoaqaagent@test.com",
+                "FirstName1": "asffads",
+                "CreatedDate": "2025-11-05 14:09:29",
+                "InsuredName": "asffads asfdsfad",
+                "OFACSuccess": "Y",
+                "UpdatedDate": "2025-11-05 14:10:00",
+                "PrincipalDOB": "2000-11-05",
+                "AccountNumber": "833124",
+                "CreatedToDate": "11/05/2025",
+                "InsuredNumber": "H100869074",
+                "UpdatedToDate": "11/05/2025",
+                "InsuredAddress": [
+                    {
+                        "ID": "7499b1f7-83bc-4aab-a45d-53aef583b1db",
+                        "City": "Miami Beach",
+                        "County": "Miami-Dade",
+                        "PARENTID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+                        "Zipcode1": "33139",
+                        "AddressType": "Primary",
+                        "StateRegionCode": "FL",
+                        "InsuredFullAddress": "1 Ocean Dr, Miami Beach, FL 33139, USA",
+                        "StreetNumberAddress1": "1 Ocean Drive"
+                    }
+                ],
+                "LastModifiedBy": "chenoaqaagent@test.com",
+                "RunDateandTime": "11-05-2025 14:17:20",
+                "CreatedFromDate": "11/05/2025",
+                "UpdatedFromDate": "11/05/2025",
+                "LastModifiedDate": "2025-11-05 14:10:00",
+                "AdditionalInsured": [
+                    {
+                        "ID": "5b97c16a-d0d5-451b-98dd-d3ff23fd36f9",
+                        "Dob": "2000-11-05",
+                        "Criminal": "false",
+                        "PARENTID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+                        "LastName2": "asfdsfad",
+                        "OFACScore": "0",
+                        "FirstName1": "asffads",
+                        "InsuredType": "PrimaryPrincipal",
+                        "RunDateandTime": "11-05-2025 14:17:20",
+                        "AdditionalInsuredAddress": [
+                            {
+                                "ID": "3b7c4114-bab6-4ca5-b3fe-e1fc17bc327f",
+                                "City": "Miami Beach",
+                                "PARENTID": "5b97c16a-d0d5-451b-98dd-d3ff23fd36f9",
+                                "Zipcode1": "33139",
+                                "FullAddress": "1 Ocean Dr, Miami Beach, FL 33139, USA",
+                                "StateRegionCode": "FL",
+                                "StreetNumberAddress1": "1 Ocean Drive"
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "7499b1f7-83bc-4aab-a45d-53aef583b1db",
+                        "Dob": "2000-11-05",
+                        "PARENTID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+                        "LastName2": "asfdsfad",
+                        "FirstName1": "asffads",
+                        "InsuredType": "PrimaryPrincipal",
+                        "AdditionalInsuredAddress": [
+                            {
+                                "ID": "7499b1f7-83bc-4aab-a45d-53aef583b1db",
+                                "City": "Miami Beach",
+                                "PARENTID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+                                "Zipcode1": "33139",
+                                "FullAddress": "1 Ocean Dr, Miami Beach, FL 33139, USA",
+                                "StateRegionCode": "FL",
+                                "StreetNumberAddress1": "1 Ocean Drive"
+                            }
+                        ]
+                    }
+                ],
+                "PrincipalLastName": "asfdsfad",
+                "InsuredFullAddress": "1 Ocean Dr, Miami Beach, FL 33139, USA",
+                "LastModifiedToDate": "11/05/2025",
+                "PrincipalFirstName": "asffads",
+                "InsuredCommunication": [
+                    {
+                        "ID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+                        "PARENTID": "709ccdde-4ca0-4573-8465-9fd22545c012"
+                    }
+                ],
+                "LastModifiedFromDate": "11/05/2025",
+                "SelectedLineOfBusiness": [
+                    {
+                        "ID": "e333d833-9cfb-47bd-b3d3-55a45a702a0f",
+                        "LOBName": "PL",
+                        "PARENTID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+                        "InsuranceType": "Homeowners"
+                    },
+                    {
+                        "ID": "2dfcbe67-5da8-46b9-b13e-f65c8c5eb43f",
+                        "LOBName": "PL",
+                        "PARENTID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+                        "InsuranceType": "Homeowners"
+                    }
+                ]
+            }
+        ],
+        "OwnerId": "4742",
+        "AgencyId": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+        "PARENTID": "d2806601-0f5d-42da-8602-3df6c9ef35c9",
+        "AccountID": "da9e38ec-af6b-401e-9eab-8148712f0ccb",
+        "CreatedBy": "chenoaqaagent@test.com",
+        "LastName2": "asfdsfad",
+        "UpdatedBy": "chenoaqaagent@test.com",
+        "FirstName1": "asffads",
+        "AccountName": "asffads asfdsfad",
+        "CreatedDate": "2025-11-05 14:09:29",
+        "UpdatedDate": "2025-11-05 14:10:00",
+        "AccountNumber": "833124",
+        "CreatedToDate": "11/05/2025",
+        "UpdatedToDate": "11/05/2025",
+        "AccountAddress": [
+            {
+                "ID": "c541e5bd-b5d8-4dc7-9c6f-b0aa0538e213",
+                "City": "Miami Beach",
+                "County": "Miami-Dade",
+                "PARENTID": "da9e38ec-af6b-401e-9eab-8148712f0ccb",
+                "Zipcode1": "33139",
+                "AddressType": "Primary",
+                "StateRegionCode": "FL",
+                "AccountFullAddress": "1 Ocean Dr, Miami Beach, FL 33139, USA",
+                "StreetNumberAddress1": "1 Ocean Drive"
+            }
+        ],
+        "LastModifiedBy": "chenoaqaagent@test.com",
+        "CreatedFromDate": "11/05/2025",
+        "UpdatedFromDate": "11/05/2025",
+        "LastModifiedDate": "2025-11-05 14:10:00",
+        "LastModifiedToDate": "11/05/2025",
+        "LastModifiedFromDate": "11/05/2025",
+        "SelectedLineOfBusiness": [
+            {
+                "ID": "a83a1fe1-76c6-483e-a707-318d9dd438e5",
+                "LOBName": "PL",
+                "PARENTID": "da9e38ec-af6b-401e-9eab-8148712f0ccb",
+                "InsuranceType": "Homeowners"
+            },
+            {
+                "ID": "74bf0796-15ba-4248-bb3a-3a34c5778549",
+                "LOBName": "PL",
+                "PARENTID": "da9e38ec-af6b-401e-9eab-8148712f0ccb",
+                "InsuranceType": "Homeowners"
+            }
+        ]
+    },
+    "AgentID": "23e2f0b1-55c8-4768-acab-6ee976b3bddd",
+    "OwnerId": "4742",
+    "AgencyID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+    "AccountID": "da9e38ec-af6b-401e-9eab-8148712f0ccb",
+    "CreatedBy": "chenoaqaagent@test.com",
+    "InsuredID": "709ccdde-4ca0-4573-8465-9fd22545c012",
+    "UpdatedBy": "chenoaqaagent@test.com",
+    "CreatedDate": "2025-11-05 14:09:29",
+    "SublineName": "Builders_Risk",
+    "UpdatedDate": "2025-11-05 14:17:21",
+    "SourceSystem": "Unqork",
+    "SubmissionID": "d2806601-0f5d-42da-8602-3df6c9ef35c9",
+    "CreatedToDate": "11/05/2025",
+    "GeneralAgency": {
+        "ID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+        "Name": "Orchid Underwriters Surplus Lines Licensing",
+        "Agency": [
+            {
+                "ID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                "Name": "Orchid Accounting",
+                "Agent": [
+                    {
+                        "ID": "23e2f0b1-55c8-4768-acab-6ee976b3bddd",
+                        "TaxID": "",
+                        "Status": "Active",
+                        "OwnerId": "4742",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "Standing": "",
+                        "AgentName": "Somya Mishra",
+                        "CreatedBy": "Orchid_Renewal",
+                        "LastName2": "Mishra",
+                        "UpdatedBy": "Orchid_Renewal",
+                        "AgencyName": "Orchid Accounting",
+                        "FirstName1": "Somya",
+                        "AgentNumber": "",
+                        "ContactType": "Agent",
+                        "CreatedDate": "2024-03-12 12:15:24",
+                        "MiddleName3": "",
+                        "UpdatedDate": "2025-03-03 11:32:43",
+                        "AgencyNumber": "AGY6787",
+                        "AgentAddress": [
+                            {
+                                "ID": "7c95b3fd-5b93-4b2c-8e87-16ee0a17d171",
+                                "City": "Vero Beach",
+                                "County": "Indian River",
+                                "PARENTID": "23e2f0b1-55c8-4768-acab-6ee976b3bddd",
+                                "Zipcode1": "32964-3250",
+                                "Zipcode2": "",
+                                "CountryCode": "US",
+                                "StateRegion": "Florida",
+                                "StateRegionCode": "FL",
+                                "StreetNameAddress2": "",
+                                "StreetNumberAddress1": "None"
+                            }
+                        ],
+                        "AgentLicense": [
+                            {
+                                "ID": "7eacad5d-0abd-495c-b53e-5b3962672420",
+                                "Number": "W033375",
+                                "PARENTID": "23e2f0b1-55c8-4768-acab-6ee976b3bddd",
+                                "ExternalID": "a2d5f0000010gJbAAI",
+                                "EffectiveDate": "2023-01-01",
+                                "LicenseStatus": "Current",
+                                "ExpirationDate": "3023-01-01",
+                                "StateRegionCode": "FL"
+                            }
+                        ],
+                        "UpdatedToDate": "03/03/2025",
+                        "IsAgentAdminYN": "false",
+                        "ExternalAgentID": "0037c000018Bk4KAAS",
+                        "UpdatedFromDate": "03/03/2025",
+                        "ExternalAgencyID": "0015f00000L0GtEAAV",
+                        "IsAgentCSRUserYN": "false",
+                        "LastModifiedDate": "2025-03-03 11:32:43",
+                        "AgentCommunication": [
+                            {
+                                "ID": "57b1893f-a34c-498d-a76e-2b781844f9d5",
+                                "PARENTID": "23e2f0b1-55c8-4768-acab-6ee976b3bddd",
+                                "PhoneNumber": "(772) 231-2022",
+                                "EmailAddress": "smishra2@orchidinsurance.com"
+                            }
+                        ],
+                        "LastModifiedToDate": "03/03/2025",
+                        "LicenseRelationship": "Producer",
+                        "LastModifiedFromDate": "03/03/2025",
+                        "NationalProducerNumber": "",
+                        "PrincipalContactIndicatorYN": "true"
+                    }
+                ],
+                "TaxID": "93-2866672",
+                "Status": "Active",
+                "OwnerId": "4742",
+                "Standing": "Good",
+                "AgencyDBA": "",
+                "CreatedBy": "Orchid_Renewal",
+                "UpdatedBy": "Orchid_Renewal",
+                "AgencyType": "PL",
+                "CreatedDate": "2024-03-12 06:29:54",
+                "UpdatedDate": "2025-11-04 23:30:27",
+                "AgencyNumber": "AGY6787",
+                "WireTransfer": "true",
+                "AgencyAddress": [
+                    {
+                        "ID": "6b21fa11-caf6-4da1-86d5-b8752c1aefbb",
+                        "City": "Vero Beach",
+                        "County": "Indian River",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "AddressType": "Primary",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place Suite A110"
+                    },
+                    {
+                        "ID": "bf9acffd-5469-4054-9b98-7b5e01e3c670",
+                        "City": "Vero Beach",
+                        "County": "Indian River",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "AddressType": "Billing",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place, Suite A110"
+                    }
+                ],
+                "AgencyContact": [
+                    {
+                        "ID": "899e6edb-0d84-4d7d-9aad-3afdc3d5ea25",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "ContactID": "472dc180-c3aa-4e8e-a968-484af6ea339e",
+                        "LastName2": "Walker",
+                        "FirstName1": "Amy",
+                        "ContactType": "Principal Contact",
+                        "AgencyContactAddress": [
+                            {
+                                "ID": "08187833-7f6b-4bc0-a79d-3a772b2acee5",
+                                "City": "Vero Beach",
+                                "County": "Indian River",
+                                "PARENTID": "899e6edb-0d84-4d7d-9aad-3afdc3d5ea25",
+                                "Zipcode1": "32960",
+                                "Zipcode2": "",
+                                "CountryCode": "US",
+                                "StateRegion": "Florida",
+                                "StateRegionCode": "FL",
+                                "StreetNameAddress2": "",
+                                "StreetNumberAddress1": "1201 19th Place, Suite A110"
+                            }
+                        ],
+                        "AgencyContactCommunication": [
+                            {
+                                "ID": "2ee168e0-ace5-4a71-8929-25dd7b930e1c",
+                                "PARENTID": "899e6edb-0d84-4d7d-9aad-3afdc3d5ea25",
+                                "EmailAddress": "awalker2@orchidinsurance.com"
+                            }
+                        ]
+                    }
+                ],
+                "AgencyLicense": [],
+                "UpdatedToDate": "11/04/2025",
+                "ParentAgencyID": "9911b34a-b071-43b2-b171-4ff4fd921b87",
+                "X1099Indicator": "true",
+                "CommissionPayee": "Split",
+                "UpdatedFromDate": "11/04/2025",
+                "ExternalAgencyID": "0015f00000L0GtEAAV",
+                "IsLegacyAgencyYN": "No",
+                "LastModifiedDate": "2025-11-04 23:30:27",
+                "MarketingManager": "0055f0000099uLHAAY",
+                "AgencyLicenseName": "Orchid Insurance",
+                "ContractStartDate": "",
+                "CIC_Eligibility__c": "Yes",
+                "ExternalAgencyCode": "",
+                "LastModifiedToDate": "11/04/2025",
+                "QBE_Eligibility__c": "Yes",
+                "AgencyCommunication": [
+                    {
+                        "ID": "d9ae81b9-7489-4f65-b023-effebe489504",
+                        "Fax": "",
+                        "PARENTID": "59c7b48d-2a00-4a01-aceb-37534f7652dc",
+                        "PhoneNumber": "772-257-7988",
+                        "EmailAddress": "renewaluat@orchidinsurance.com"
+                    }
+                ],
+                "LicenseRelationship": "Agency",
+                "NationalPartnership": "",
+                "LastModifiedFromDate": "11/04/2025",
+                "Chaucer_Eligibility__c": "Yes",
+                "Neptune_Eligibility__c": "No",
+                "Lloyds_BA_Eligibility__c": "Yes",
+                "Accredited_Eligibility__c": "Yes",
+                "Chubb_Euro_Eligibility__c": "Yes",
+                "Transverse_Eligibility__c": "Yes",
+                "NationalPartnershipSubcode": "",
+                "Beazley_BESI_Eligibility__c": "Yes",
+                "RenaissanceRe_Eligibility__c": "Yes",
+                "ParentAgencyControlCommission": "false",
+                "Lloyds_Canopius_Eligibility__c": "Yes",
+                "Lloyds_Northeast_Eligibility__c": "Yes",
+                "Lloyds_Preferred_Eligibility__c": "Yes",
+                "RenewalParentAgencyCommissionSharePercentage": "23",
+                "NewBusinessParentAgencyCommissionSharePercentage": "22"
+            }
+        ],
+        "Status": "Active",
+        "OwnerId": "4742",
+        "PARENTID": "d2806601-0f5d-42da-8602-3df6c9ef35c9",
+        "CreatedBy": "Orchid_Nandagopal",
+        "UpdatedBy": "Orchid_Nandagopal",
+        "CreatedDate": "2023-09-27 21:02:31",
+        "UpdatedDate": "2023-10-09 21:15:55",
+        "GeneralAgent": [
+            {
+                "ID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                "TaxID": "",
+                "Status": "Active",
+                "OwnerId": "4742",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "Standing": "",
+                "AgentName": "James R. Watje",
+                "CreatedBy": "LION-98_Import",
+                "LastName2": "Watje",
+                "UpdatedBy": "LION-98_Import",
+                "FirstName1": "James R.",
+                "ContactType": "Principal Contact",
+                "CreatedDate": "2025-03-21 11:18:31",
+                "MiddleName3": "",
+                "UpdatedDate": "2025-03-22 09:00:37",
+                "UpdatedToDate": "03/22/2025",
+                "IsAgentAdminYN": "false",
+                "ExternalAgentID": "003Nq00000X9Z1xIAF",
+                "UpdatedFromDate": "03/22/2025",
+                "ExternalAgencyID": "0017c0000115rmaAAA",
+                "IsAgentCSRUserYN": "false",
+                "LastModifiedDate": "2025-03-22 09:00:37",
+                "GeneralAgencyName": "Orchid Underwriters Surplus Lines Licensing",
+                "ExternalAgencyCode": "",
+                "GeneralAgentNumber": "",
+                "LastModifiedToDate": "03/22/2025",
+                "GeneralAgencyNumber": "OUASLL",
+                "GeneralAgentAddress": [
+                    {
+                        "ID": "e2f763cc-ef3d-49e8-823a-fcbad992053a",
+                        "City": "Vero Beach",
+                        "County": "FL",
+                        "PARENTID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place, Ste A110"
+                    }
+                ],
+                "GeneralAgentLicense": [
+                    {
+                        "ID": "b9ec0ec9-ff79-46e3-88cd-512706939a14",
+                        "Number": "D037708",
+                        "PARENTID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                        "ExternalID": "a2dNq000000W1x3IAC",
+                        "EffectiveDate": "",
+                        "LicenseStatus": "Current",
+                        "ExpirationDate": "",
+                        "StateRegionCode": "FL"
+                    }
+                ],
+                "LicenseRelationship": "Producer",
+                "LastModifiedFromDate": "03/22/2025",
+                "NationalProducerNumber": "",
+                "GeneralAgentCommunication": [
+                    {
+                        "ID": "5fc7edee-89cd-469e-91b1-6cfbce34be83",
+                        "PARENTID": "6fbba6be-8197-42b8-be81-24480c3e8339",
+                        "PhoneNumber": "7722265546",
+                        "EmailAddress": "jwatje@orchidinsurance.com"
+                    }
+                ],
+                "PrincipalContactIndicatorYN": "false"
+            }
+        ],
+        "UpdatedToDate": "10/09/2023",
+        "ParentAgencyID": "",
+        "UpdatedFromDate": "10/09/2023",
+        "ExternalAgencyID": "0017c0000115rmaAAA",
+        "GeneralAgencyDBA": "",
+        "IsLegacyAgencyYN": "",
+        "LastModifiedDate": "2023-10-09 21:15:55",
+        "MarketingManager": "0055f000004Tpc7AAC",
+        "ContractStartDate": "2023-03-01",
+        "GeneralAgencyType": "",
+        "LastModifiedToDate": "10/09/2023",
+        "GeneralAgencyNumber": "OUASLL",
+        "LicenseRelationship": "Agency",
+        "NationalPartnership": "",
+        "GeneralAgencyAddress": [
+            {
+                "ID": "9ae9a2da-f0b5-4dc1-9258-8a9ce0fcb64f",
+                "City": "Vero Beach",
+                "County": "FL",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "Zipcode1": "32960",
+                "Zipcode2": "",
+                "AddressType": "Primary",
+                "CountryCode": "",
+                "StateRegion": "",
+                "StateRegionCode": "",
+                "StreetNameAddress2": "",
+                "StreetNumberAddress1": "1201 19th Place, Ste A110"
+            },
+            {
+                "ID": "88e73dff-94f6-45b0-babb-24c22ccfc167",
+                "City": "Vero Beach",
+                "County": "FL",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "Zipcode1": "32960",
+                "Zipcode2": "",
+                "AddressType": "Billing",
+                "CountryCode": "",
+                "StateRegion": "Florida",
+                "StateRegionCode": "FL",
+                "StreetNameAddress2": "",
+                "StreetNumberAddress1": "1201 19th Place, Ste A110"
+            }
+        ],
+        "GeneralAgencyContact": [
+            {
+                "ID": "0b5a11c4-7748-47e7-8618-9d4ccb4f118a",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "ContactID": "3b607f77-11a0-42be-b4b2-76419efd23aa",
+                "LastName2": "Terzer",
+                "FirstName1": "Ron",
+                "ContactType": "",
+                "GeneralAgencyContactAddress": [
+                    {
+                        "ID": "0a7339a0-190d-4a64-898a-4d8f89c6c93c",
+                        "City": "Vero Beach",
+                        "County": "",
+                        "PARENTID": "0b5a11c4-7748-47e7-8618-9d4ccb4f118a",
+                        "Zipcode1": "32960",
+                        "Zipcode2": "",
+                        "CountryCode": "US",
+                        "StateRegion": "Florida",
+                        "StateRegionCode": "FL",
+                        "StreetNameAddress2": "",
+                        "StreetNumberAddress1": "1201 19th Place, Ste A110"
+                    }
+                ],
+                "GeneralAgencyContactCommunication": [
+                    {
+                        "ID": "5f39f4cf-e692-4b04-951a-48a869430490",
+                        "PARENTID": "0b5a11c4-7748-47e7-8618-9d4ccb4f118a",
+                        "EmailAddress": ""
+                    }
+                ]
+            }
+        ],
+        "GeneralAgencyLicense": [
+            {
+                "ID": "f8780969-c48c-4ca8-b19d-914781f5a433",
+                "Number": "L065449",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "ExternalID": "a2d7c000001vaGzAAI",
+                "EffectiveDate": "2009-12-18",
+                "LicenseStatus": "Current",
+                "ExpirationDate": "3009-12-18",
+                "StateRegionCode": "FL"
+            }
+        ],
+        "LastModifiedFromDate": "10/09/2023",
+        "GeneralAgencyCommunication": [
+            {
+                "ID": "6b0700b9-a295-4112-9f70-a1e8ca6c3f1b",
+                "Fax": "",
+                "PARENTID": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+                "PhoneNumber": "7722265546",
+                "EmailAddress": ""
+            }
+        ],
+        "NationalPartnershipSubcode": "",
+        "ParentAgencyControlCommission": "false"
+    },
+    "ProcessStatus": "Submission In Progress",
+    "UpdatedToDate": "11/05/2025",
+    "GeneralAgentId": "6fbba6be-8197-42b8-be81-24480c3e8339",
+    "LastModifiedBy": "chenoaqaagent@test.com",
+    "SubmissionType": "New Business",
+    "SystemOfRecord": "Marketplace",
+    "CreatedFromDate": "11/05/2025",
+    "GeneralAgencyId": "b96f5e23-3549-4ff2-b652-d3846de7e59b",
+    "UpdatedFromDate": "11/05/2025",
+    "LastModifiedDate": "2025-11-05 14:17:21",
+    "SubmissionNumber": "SN873960",
+    "SubmissionStatus": "In Progress",
+    "LastModifiedToDate": "11/05/2025",
+    "NewBusinessPurpose": "Standard",
+    "PolicyEffectiveDate": "2025-11-27",
+    "LastModifiedFromDate": "11/05/2025",
+    "ExternalSystemDetails": [
+        {
+            "ID": "9cf9c685-1cbb-464e-b56a-ef93eed3ea20",
+            "PARENTID": "d2806601-0f5d-42da-8602-3df6c9ef35c9",
+            "ExternalPageID": ""
+        },
+        {
+            "ID": "4278c8cc-9511-4b58-80fc-87d461188cc2",
+            "PARENTID": "d2806601-0f5d-42da-8602-3df6c9ef35c9",
+            "ExternalPageID": ""
+        }
+    ]
+}

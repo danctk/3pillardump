@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui.css" />
+</head>
+<body>
+    <div id="swagger-ui"></div>
+    <script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui-bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui-standalone-preset.js"></script>
+    <script>
+        const spec = {
+            openapi: "3.0.0",
+            info: {
+                title: "Jira Intermediary API",
+                description: "API to handle OAuth 2.0 calls and interact with a third-party application.",
+                version: "1.0.0",
+            },
+            servers: [
+                {
+                    url: "http://localhost:3000",  // Update this to your deployed server URL
+                }
+            ],
+            paths: {
+                "/jira-webhook": {
+                    post: {
+                        summary: "Process Jira Webhook",
+                        description: "Receives a webhook from Jira and calls a third-party API with the OAuth 2.0 token.",
+                        operationId: "processJiraWebhook",
+                        requestBody: {
+                            required: true,
+                            content: {
+                                "application/json": {
+                                    schema: {
+                                        type: "object",
+                                        properties: {
+                                            sprintId: { type: "integer" },
+                                            sprintName: { type: "string" },
+                                            endDate: { type: "string", format: "date-time" },
+                                            issues: {
+                                                type: "array",
+                                                items: {
+                                                    type: "object",
+                                                    properties: {
+                                                        key: { type: "string" },
+                                                        summary: { type: "string" },
+                                                        status: { type: "string" },
+                                                    },
+                                                },
+                                            },
+                                        },
+                                    },
+                                },
+                            },
+                        },
+                        responses: {
+                            '200': {
+                                description: "Webhook processed successfully.",
+                                content: {
+                                    "application/json": {
+                                        schema: {
+                                            type: "object",
+                                            properties: {
+                                                message: { type: "string", example: "Webhook processed successfully" },
+                                            },
+                                        },
+                                    },
+                                },
+                            },
+                            '500': {
+                                description: "Internal Server Error.",
+                                content: {
+                                    "application/json": {
+                                        schema: {
+                                            type: "object",
+                                            properties: {
+                                                error: { type: "string", example: "Error processing webhook" },
+                                            },
+                                        },
+                                    },
+                                },
+                            },
+                        },
+                    },
+                },
+                "/refresh-token": {
+                    post: {
+                        summary: "Refresh OAuth 2.0 Access Token",
+                        description: "Endpoint to refresh the OAuth 2.0 access token using the refresh token.",
+                        operationId: "refreshAccessToken",
+                        responses: {
+                            '200': {
+                                description: "Access token refreshed successfully.",
+                                content: {
+                                    "application/json": {
+                                        schema: {
+                                            type: "object",
+                                            properties: {
+                                                accessToken: { type: "string" },
+                                                expiresIn: { type: "integer" },
+                                            },
+                                        },
+                                    },
+                                },
+                            },
+                            '400': {
+                                description: "Bad Request.",
+                                content: {
+                                    "application/json": {
+                                        schema: {
+                                            type: "object",
+                                            properties: {
+                                                error: { type: "string", example: "Invalid refresh token" },
+                                            },
+                                        },
+                                    },
+                                },
+                            },
+                            '500': {
+                                description: "Internal Server Error.",
+                                content: {
+                                    "application/json": {
+                                        schema: {
+                                            type: "object",
+                                            properties: {
+                                                error: { type: "string", example: "Error refreshing access token" },
+                                            },
+                                        },
+                                    },
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        };
+
+        const ui = SwaggerUIBundle({
+            spec: spec,
+            dom_id: '#swagger-ui',
+            presets: [
+                SwaggerUIStandalonePreset,
+                SwaggerUIBundle.presets.apis,
+            ],
+            layout: "StandaloneLayout",
+        });
+    </script>
+</body>
+</html>

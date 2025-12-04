@@ -1,0 +1,14 @@
+{
+  "name": "token-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze protobuf token service for hidden tokens",
+  "main": "find_token.ts",
+  "scripts": {
+    "start": "ts-node find_token.ts"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "^1.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+} 

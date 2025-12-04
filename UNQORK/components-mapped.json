@@ -1,0 +1,895 @@
+[
+    {
+        "key": "fg",
+        "label": "",
+        "components": [
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "BurglarAlarm",
+                "label": "BurglarAlarm: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "ConstructionType",
+                "label": "ConstructionType: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "ExteriorSiding",
+                "label": "ExteriorSiding: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "FireAlarm",
+                "label": "FireAlarm: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "Foundation",
+                "label": "Foundation: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "GarageType",
+                "label": "GarageType: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "HaveFloodPolicyYN",
+                "label": "HaveFloodPolicyYN: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "HVACCool",
+                "label": "HVACCool: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "hvacHeating",
+                "label": "hvacHeating: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "InteriorSprinkler",
+                "label": "InteriorSprinkler: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "LaundryLocation",
+                "label": "LaundryLocation: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "NumberOfStories",
+                "label": "NumberOfStories: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "PlumbingType",
+                "label": "PlumbingType: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "ProtectionClass",
+                "label": "ProtectionClass: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "ResType",
+                "label": "ResType: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "RoofMaterial",
+                "label": "RoofMaterial: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "RoofShape",
+                "label": "RoofShape: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "WaterHeaterLocation",
+                "label": "WaterHeaterLocation: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "electricalUpdate",
+                "label": "electricalUpdate: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "HeatingUpdated",
+                "label": "HeatingUpdated: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "numberOfUnitsInBuilding",
+                "label": "numberOfUnitsInBuilding: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "NumberOfBuildings",
+                "label": "NumberOfBuildings: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "openingProtection",
+                "label": "openingProtection: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "plumbingUpdateYear",
+                "label": "plumbingUpdateYear: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "RoofToWallConnection",
+                "label": "RoofToWallConnection: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "RoofDeckAttachments",
+                "label": "RoofDeckAttachments: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "RoofUpdated",
+                "label": "RoofUpdated: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "DwellingCoverage",
+                "label": "DwellingCoverage: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "OtherStructureCoverage",
+                "label": "OtherStructureCoverage: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "PersonalPropertyCoverage",
+                "label": "PersonalPropertyCoverage: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "LossOfUseCoverage",
+                "label": "LossOfUseCoverage: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "testDisplay",
+                "label": "testDisplay: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "PersonalLiabilityCoverageL",
+                "label": "PersonalLiabilityCoverageL: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "MedicalPaymentsCoverageM",
+                "label": "MedicalPaymentsCoverageM: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "WindDeductibleType",
+                "label": "WindDeductibleType: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "DeductiblePercentage",
+                "label": "DeductiblePercentage: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "AopPolicyDeductibleAmount",
+                "label": "AopPolicyDeductibleAmount: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "EquipmentBreakdown",
+                "label": "EquipmentBreakdown: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "GolfCartPhysicalDamageCoverage",
+                "label": "GolfCartPhysicalDamageCoverage: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "LossAssessment",
+                "label": "LossAssessment: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "MoldCov",
+                "label": "MoldCov: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "OrdinanceLawCoverage",
+                "label": "OrdinanceLawCoverage: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "Personalinjury",
+                "label": "Personalinjury: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "PersonalPropertyReplacementcost",
+                "label": "PersonalPropertyReplacementcost: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "WaterDamageSublimit",
+                "label": "WaterDamageSublimit: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            },
+            {
+                "persistent": false,
+                "type": "hidden",
+                "key": "WaterBackupDeductible",
+                "label": "WaterBackupDeductible: String",
+                "tags": [
+                    "type:string"
+                ],
+                "comment": "",
+                "ancestors": [
+                    "root",
+                    "fg"
+                ],
+                "watcherList": [],
+                "parentChanged": true,
+                "permissions": {},
+                "react": false,
+                "wasDropped": true
+            }
+        ],
+        "type": "field-group",
+        "ariaLive": "off",
+        "componentId": "ebb41077-bfb0-403e-8ad9-068059e50cd8",
+        "ariaRole": "",
+        "ariaCustom": [],
+        "creator": "uq6862972a16514e667ffc4ee4",
+        "created": "2025-10-17T13:41:28.600Z",
+        "modifier": "uq6862972a16514e667ffc4ee4",
+        "modified": "2025-10-17T13:41:28.602Z",
+        "permissions": {},
+        "ancestors": [
+            "root"
+        ]
+    }
+]

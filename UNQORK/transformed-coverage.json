@@ -1,0 +1,22 @@
+{
+    "Account": {
+        "Insured": [
+            {
+                "Location": [
+                    {
+                        "Building": [
+                            {
+                                "Coverage": [
+                                    {
+                                        "GolfCartCoverage": "5000",
+                                        "NumberOfGolfCarts": "1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

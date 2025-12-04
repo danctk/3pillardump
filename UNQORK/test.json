@@ -1,0 +1,302 @@
+{% set insuredLocationID = null %}
+{% if data.quoteResponse.Account.Insured[0] and data.quoteResponse.Account.Insured[0].Location[0].ID %}
+{% set insuredLocationID = data.quoteResponse.Account.Insured[0].Location[0].ID %}
+{% else %}
+{% for item in data.quoteResponse %}
+{% if item.insuredLocationID and not insuredLocationID %}
+{% set insuredLocationID = item.insuredLocationID %}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{
+"OwnerId": "4742",
+"ServiceRequestDetail": {
+"OwnerId": "4742",
+"EndClientUserUniqueSessionId": "1.0",
+"ServiceRequestVersion": "1.0",
+"LanguageCode": "en",
+"UserName": "{{data.currentUser.name}}",
+"RegionCode": "US",
+"ServiceResponseVersion": "1.0",
+"ResponseType": "json",
+"Token": "{{data.tokenGetCurrentToken.Token}}",
+"Lob": "PL",
+"BrowserIp": "192.158.1.38.",
+"UserRole": "Agent",
+"RMSModeledPremium": "425.21"
+},
+"EventName": "ModifyQuote_WF_1.0.0.1",
+"ExternalSystemDetails": [
+{
+"PARENTID": "{{data.quoteResponse.ID}}",
+"ExternalPageID": "InsuredApplicationSubmitted"
+}
+],
+"QuoteId": "{{data.quoteResponse.ID}}",
+"QuoteNumber": "{{data.quoteResponse.QuoteNumber}}",
+"Account": {
+"PARENTID": "{{data.quoteResponse.ID}}",
+"ID": "{{data.quoteResponse.Account.AccountID}}",
+"Insured": [
+{
+"TaxExemptStatus": "{{data.taxExemptStatus}}",
+"SurplusLinesExemptRisk": "{{data.surplusLinesExemptRisk}}",
+
+{% if data.entityName %}
+"NameOfLLCLLPCorporation": "{{data.entityName | title}}",
+{% endif %}
+
+{% if data.nameOfLLCLLPCorporation %}
+"NameOfLLCLLPCorporation": "{{data.nameOfLLCLLPCorporation | title }}",
+{% endif %}
+
+{% if data.entityFormationReasonOtherDescription %}
+"EntityFormationReasonOtherDescription": "{{data.entityFormationReasonOtherDescription | title}}",
+{% endif %}
+
+{% if data.entityBusinessActivitiesParticipation %}
+"EntityBusinessActivitiesParticipation": "{{data.entityBusinessActivitiesParticipation | title}}",
+{% endif %}
+
+{% if data.entityBusinessActivitiesParticipationOtherDescription %}
+"EntityBusinessActivitiesParticipationOtherDescription": "{{data.entityBusinessActivitiesParticipationOtherDescription |
+title}}",
+{% endif %}
+
+{% if data.ownershipType != "Individual" %}
+"FirstName1": "{{data.entityName | title}}",
+"LastName2": "",
+{% endif %}
+
+"AdditionalInsured": [
+{% if data.secondaryFirstName %}
+{
+"LastName2": "{{data.secondaryLastName}}",
+"FirstName1": "{{data.secondaryFirstName}}",
+"Dob": "{{data.secondaryInsdateofBirth}}",
+"ID": "{{data.quoteResponse.Account.Insured[0].AdditionalInsured[0].ID}}",
+"PARENTID": "{{data.quoteResponse.Account.Insured[0].AdditionalInsured[0].PARENTID}}"
+}
+{% else %}
+{
+"ID": "{{data.quoteResponse.Account.Insured[0].AdditionalInsured[0].ID}}",
+"PARENTID": "{{data.quoteResponse.Account.Insured[0].AdditionalInsured[0].PARENTID}}"
+}
+{% endif %}
+],
+
+"MaritalStatus": "{{data.maritalStatus}}",
+"ID": "{{data.quoteResponse.Account.Insured[0].ID}}",
+"NumberofPropertiesOwned": "{{data.propertiesOwned}}",
+"PARENTID": "{{data.quoteResponse.Account.AccountID}}",
+
+"InsuredCommunication": [
+{
+"PARENTID": "{{data.quoteResponse.Account.Insured[0].InsuredCommunication[0].PARENTID}}",
+"ID": "{{data.quoteResponse.Account.Insured[0].InsuredCommunication[0].ID}}",
+
+{% if data.phoneNumber %}
+"PhoneNumber": "{{data.phoneNumber}}",
+{% else %}
+"PhoneNumber": "{{data.hiddenSendQuoteContactNumber}}",
+{% endif %}
+
+{% if data.sendQuoteEmailAddress %}
+"EmailAddress": "{{data.sendQuoteEmailAddress}}"
+{% else %}
+"EmailAddress": "{{data.hiddenSendQuoteEmailAddress}}"
+{% endif %}
+}
+],
+
+"Location": [
+{
+"ID": "{{insuredLocationID}}",
+"PARENTID": "{{data.quoteResponse.Account.Insured[0].ID}}",
+
+"Building": [
+{
+"ID": "{{data.quoteResponse.Account.Insured[0].Location[0].Building[0].ID}}",
+"PARENTID": "{{data.quoteResponse.Account.Insured[0].Location[0].ID}}",
+
+{% if data.solartisQuoteResult.Account.Insured[0].Location[0].Building[0].AdditionalInterest %}
+"AdditionalInterest": [
+{% for item in data.solartisQuoteResult.Account.Insured[0].Location[0].Building[0].AdditionalInterest %}
+{
+{% for key, value in item %}
+"{{key}}": "{{value}}"{% if not loop.last %},{% endif %}
+{% endfor %}
+}{% if not loop.last %},{% endif %}
+{% endfor %}
+],
+{% endif %}
+
+"PropertyCurrentlyInsured": "{{data.propertyCurrentlyInsured}}"
+
+{% if data.propertyCurrentlyInsured == "Yes" %}
+,"PriorCarrierExpiringPremium": "{{data.priorCarrierExpiringPremium}}",
+"PriorInsurance": "{{data.priorInsurance}}"
+{% elif data.propertyCurrentlyInsured == "No" %}
+,"UninsuredLength": "{{data.uninsuredLength}}"
+{% endif %},
+
+"LaundryLocation": "{{data.laundrylocation}}",
+
+{% if data.quoteResponse.Account.Insured[0].Location[0].Building[0].ApplicationCompletedBy %}
+"ApplicationCompletedBy": "{{data.quoteResponse.Account.Insured[0].Location[0].Building[0].ApplicationCompletedBy}}",
+{% else %}
+"ApplicationCompletedBy": "{{data.agentQuestionApplicationCompletedBy1}}",
+{% endif %}
+
+"RentedResidence": "{{data.rentedResidence}}",
+"DayCareonPremises": "{{data.dayCareonPremises}}",
+"HotTubYN": "{{data.hotTub}}",
+"FloodZone": "{{data.floodZone}}",
+"NumberofBathrooms": "{{data.numberOfBathrooms}}",
+"SmartHomeYN": "{{data.smartHomeYN}}",
+"PanelProfInstalledYN": "{{data.panelProfInstalledYN}}",
+"ForSale": "{{data.forSale}}",
+"IsPolybutylenePiping": "{{data.polybutylene}}",
+"AluminumWiring": "{{data.aluminumwiring}}",
+"ListOnHistoricPlaces": "{{data.listOnHistoricPlaces}}",
+"ElectricalSystemOnCircuitBreakers": "{{data.circuitBreakers}}",
+"ElectricalSystemOnCircuitBreakersCFZPS": "{{data.circuitBreakersCFZPS}}",
+"StudentHousing": "{{data.studentHousing}}",
+"PriorMarket": "{{data.priorMarket}}",
+"CancelledByPriorCarrier": "{{data.cancelledByPriorCarrier}}",
+"CanopiusCancelledByPriorCarrier": "{{data.canopiusCancelledByPriorCarrier}}",
+"HighProfileIndividual": "{{data.highProfileIndividual}}",
+"ConvictedFelony": "{{data.convictedFelon}}",
+"FirstPartyLawSuit": "{{data.firstPartyLawSuit}}",
+"TrampolineOnPremises": "{{data.trampoline}}",
+"SwimmingPoolOnPremises": "{{data.pool}}",
+"PoolFeatures": "{{data.poolFeatures}}",
+"SolarPanelsType": "{{data.solarPanels}}",
+"HaveFloodPolicyYN": "{{data.floodPolicy}}",
+"SmartHomeCommunicationMode": "{{data.smartHomeCommunicationMode}}",
+"SmartHomeFeatures": "{{data.smartHomeFeatures}}",
+"ExoticorFarmAnimals": "{{data.exoticpets}}",
+"AnimalBitingHistory": "{{data.bitehistory}}",
+"DogBreed": "{{data.dogBreed}}",
+"NumberOfOccupants": "{{data.occupants}}",
+"NumberofDogs": "{{data.numberofDogs}}",
+"IsNewConstructionOrRenovation": "{{data.underConstuction}}",
+"Morethan5acres": "{{data.morethen5acre}}",
+"IsPreexistingDamage": "{{data.existindamage}}",
+"PrimarySourceofHeat": "{{data.woodBurningStove}}",
+"OtherBusiness": "{{data.conductbusinesatproperty}}",
+"HighProfileDetails": "{{data.highProfileDetails}}",
+"AnimalsOnPremises": "{{data.animalQuestion}}",
+"IsThereFuelTank": "{{data.fuelTank}}",
+"MobileKitPrefabricatedHome": "{{data.mobileKitPrefabricatedHome}}",
+
+{% if data.rdBRDwelling %}
+"BuildersRiskInsuredResidence": "{{data.rdBRDwelling}}",
+{% endif %}
+{% if data.rdBRPercentRenovated %}
+"RenovationPercentage": "{{data.rdBRPercentRenovated}}",
+{% endif %}
+
+"OwnerResponsibleForPoolAndHottub": "{{data.ownerResponsibleForPoolAndHottub}}",
+"BuildingPermit": "{{data.rdBRBuildingPermit}}",
+"IsLicensedContractor": "{{data.rdBRBuildingLicense}}",
+"BuilderGeneralLiabilityCoverageYN": "{{data.rdBRLiability}}",
+"FinanceType": "{{data.rdBRFinanceType}}",
+"ProjectStartDate": "{{data.dtProjectStart}}",
+"ExpectedProjectEndDate": "{{data.dtProjectEnd}}",
+"ProjectCompletionPercentage": "{{data.rdBRProjectCompleted}}",
+"EstimatedCompletedValue": "{{data.numBREstimatedValue}}",
+"PurchasedAmount": "{{data.numBRPurchasePrice}}",
+"IsPropertyFenced": "{{data.rdBRPropertyFenced}}",
+
+{% if data.quoteResponse.Account.Insured[0].Location[0].Building[0].Occupancy == "Vacant" %}
+"VacantPropertyVisitFrequency": "{{data.vacantPropertyVisitFrequency}}",
+"OtherVacantProperties": "{{data.otherVacantProperties}}",
+"Foreclosure": "{{data.foreclosure}}",
+"NumberofOtherVacantProperties": "{{data.numberofOtherVacantProperties}}",
+"VacancyLength": "{{data.vacancyLength}}",
+"VacantReason": "{{data.vacantReason}}",
+{% endif %}
+
+{% if data.currentClaims %}
+"LossHistory": [
+{% for claim in data.currentClaims %}
+{
+"LossDate": "{{ claim.LossDate }}",
+"LossType": "{{ claim.LossType }}",
+{% if claim.ID %}"ID": "{{ claim.ID }}",{% endif %}
+{% if claim.PARENTID %}"PARENTID": "{{ claim.PARENTID }}",{% endif %}
+"CATLossYN": "{{ claim.CATLossYN }}",
+"LossAmount": "{{ claim.LossAmount }}",
+"ClaimClosedYN": "{{ claim.ClaimClosedYN }}",
+"LossDescription": "{{ claim.LossDescription }}",
+"AllegationType": "{{ claim.AllegationType }}",
+"CATNumber": "{{ claim.CATNumber }}",
+"PriorTermClaim": "Yes",
+"ClaimRecordInRating": "{{claim.ClaimRecordInRating}}",
+"ServiceProvider": "{{ claim.ServiceProvider }}",
+"ClaimsAcknowledgementDate": "{{ claim.ClaimsAcknowledgementDate }}",
+"ClaimForThisLocationYN": "{{ claim.ClaimForThisLocationYN }}"
+}{% if not loop.last %},{% endif %}
+{% endfor %}
+],
+{% endif %}
+
+"LightingOnProperty": "{{data.rdBRPropertyLighting}}"
+
+{% if data.fireHydrantDistance is defined %},"FireHydrantDistance": "{{data.fireHydrantDistance}}"{% endif %}
+{% if data.propertyHasTrampolineSwingSet is defined %},"PropertyHasTrampolineSwingSet":
+"{{data.propertyHasTrampolineSwingSet}}"{% endif %}
+{% if data.greaterthan10acres is defined %},"Greaterthan10acres": "{{data.greaterthan10acres}}"{% endif %}
+{% if data.morethen5acre is defined %},"Morethan5acres": "{{data.morethen5acre}}"{% endif %}
+{% if data.aluminumKnobTubeFuseWiring is defined %},"AluminumKnobTubeFuseWiring":
+"{{data.aluminumKnobTubeFuseWiring}}"{% endif %}
+{% if data.aluminumWiring is defined %},"AluminumWiring": "{{data.aluminumWiring}}"{% endif %}
+{% if data.lapseInCoverage is defined %},"LapseInCoverage": "{{data.lapseInCoverage}}"{% endif %}
+
+{% if data.alternativeWaterSourceAccess is defined %},"AlternativeWaterSourceAccess":
+"{{data.alternativeWaterSourceAccess}}"{% endif %}
+{% if data.fireDepartmentandDistance is defined %},"FireDepartmentandDistance": "{{data.fireDepartmentandDistance}}"{%
+endif %}
+{% if data.respondingFireDepartmentType is defined %},"RespondingFireDepartmentType":
+"{{data.respondingFireDepartmentType}}"{% endif %}
+{% if data.fireDepartmentVehicleAvailability is defined %},"FireDepartmentVehicleAvailability":
+"{{data.fireDepartmentVehicleAvailability}}"{% endif %}
+{% if data.fireDepartmentVehicleCapacityDetails is defined %},"FireDepartmentVehicleCapacityDetails":
+"{{data.fireDepartmentVehicleCapacityDetails}}"{% endif %}
+{% if data.fireDepartmentResponseTime is defined %},"FireDepartmentResponseTime":
+"{{data.fireDepartmentResponseTime}}"{% endif %}
+{% if data.neighborLineofSight is defined %},"NeighborLineofSight": "{{data.neighborLineofSight}}"{% endif %}
+{% if data.propertyAccessBarriers is defined %},"PropertyAccessBarriers": "{{data.propertyAccessBarriers}}"{% endif %}
+{% if data.alternativeWaterSourceDetails is defined %},"AlternativeWaterSourceDetails":
+"{{data.alternativeWaterSourceDetails}}"{% endif %}
+{% if data.accessBarrierDescription is defined %},"AccessBarrierDescription": "{{data.accessBarrierDescription}}"{%
+endif %}
+{% if data.exteriorSiding is defined %},"ExteriorSiding": "{{data.exteriorSiding}}"{% endif %}
+{% if data.builderRiskWorkDetails is defined %},"BuilderRiskWorkDetails": "{{data.builderRiskWorkDetails}}"{% endif %}
+{% if data.contractorName is defined %},"ContractorName": "{{data.contractorName}}"{% endif %}
+
+{% if data.exteriorLogType is defined %},"ExteriorLogType": "{{data.exteriorLogType}}"{% endif %}
+{% if data.exteriorLogWoodType is defined %},"ExteriorLogWoodType": "{{data.exteriorLogWoodType}}"{% endif %}
+{% if data.exteriorLogTreatmentStatus is defined %},"ExteriorLogTreatmentStatus":
+"{{data.exteriorLogTreatmentStatus}}"{% endif %}
+{% if data.builderName is defined %},"BuilderName": "{{data.builderName}}"{% endif %}
+{% if data.builderYearsOfExperience is defined %},"BuilderYearsOfExperience": "{{data.builderYearsOfExperience}}"{%
+endif %}
+{% if data.distanceToBrush is defined %},"DistanceToBrush": "{{data.distanceToBrush}}"{% endif %}
+{% if data.distanceValueInput is defined %},"DistanceValueInput": "{{data.distanceValueInput}}"{% endif %}
+{% if data.exteriorLogWoodTypeOtherDescription is defined %},"ExteriorLogWoodTypeOtherDescription":
+"{{data.exteriorLogWoodTypeOtherDescription}}"{% endif %}
+{% if data.insuredOccupation is defined %},"InsuredOccupation": "{{data.insuredOccupation}}"{% endif %}
+{% if data.insuredEmployer is defined %},"InsuredEmployer": "{{data.insuredEmployer}}"{% endif %}
+{% if data.istheCommunityGated is defined %},"IstheCommunityGated": "{{data.istheCommunityGated}}"{% endif %}
+{% if data.isthecommunityguarded is defined %},"Isthecommunityguarded": "{{data.isthecommunityguarded}}"{% endif %}
+}
+]
+}
+]
+}
+]
+}
+}
